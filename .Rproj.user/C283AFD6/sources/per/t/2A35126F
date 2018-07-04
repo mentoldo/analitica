@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1530649336508.000,
+    "created" : 1530669234342.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "4F0F63D3",
+    "hash" : "351052505",
+    "id" : "2A35126F",
     "lastKnownWriteTime" : 1530645630,
     "last_content_update" : 1530645630,
-    "path" : "~/Escritorio/blogs/analitica/themes/hugo-xmin/layouts/_default/single.html",
-    "project_path" : "themes/hugo-xmin/layouts/_default/single.html",
+    "path" : "~/Escritorio/blogs/analitica/themes/hugo-xmin/layouts/_default/terms.html",
+    "project_path" : "themes/hugo-xmin/layouts/_default/terms.html",
     "properties" : {
-        "cursorPosition" : "11,27",
+        "cursorPosition" : "2,0",
         "scrollLine" : "0"
     },
-    "relative_order" : 4,
+    "relative_order" : 7,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "html"

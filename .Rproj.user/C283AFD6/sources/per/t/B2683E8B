@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1514949997",
     "id" : "B2683E8B",
-    "lastKnownWriteTime" : 1530647987,
-    "last_content_update" : 1530647987658,
+    "lastKnownWriteTime" : 1530672071,
+    "last_content_update" : 1530672071461,
     "path" : "~/Escritorio/blogs/analitica/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "32,21",
-        "scrollLine" : "19"
+        "cursorPosition" : "25,14",
+        "scrollLine" : "1"
     },
     "relative_order" : 1,
     "source_on_save" : false,
