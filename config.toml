@@ -24,10 +24,7 @@ footnotereturnlinkcontents = "↩"
 [[menu.main]]
     name = "Suscribir"
     url = "/index.xml"
-[[menu.main]]
-    name = "Mail"
-    url = "/"
-    weight = 4
+
 
 [params]
     description = "A website built through Hugo and blogdown."
