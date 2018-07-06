@@ -186,4 +186,53 @@ Username for 'https://gitlab.com': mentoldo
 error: cannot run rpostback-askpass: No existe el archivo o el directorio
 Password for 'https://mentoldo@gitlab.com': 
 Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ 
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A[K[K[K[K[K[K[K[K[K[Kgit status
+En la rama tankatheme
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
+	[31mmodificado:    .Rproj.user/C283AFD6/console06/INDEX001[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/1538E427[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/2854B869[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/D20C4C60[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/DC839128[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/INDEX[m
+	[31mmodificado:    .Rproj.user/shared/notebooks/paths[m
+	[31mmodificado:    content/_index.Rmarkdown[m
+	[31mmodificado:    content/_index.markdown[m
+	[31mmodificado:    layouts/_default/list.html[m
+	[31mmodificado:    public/categories/example/index.html[m
+	[31mmodificado:    public/categories/hugo/index.html[m
+	[31mmodificado:    public/categories/r/index.html[m
+	[31mmodificado:    public/css/style.css[m
+	[31mmodificado:    public/index.html[m
+	[31mmodificado:    public/index.xml[m
+	[31mmodificado:    public/note/index.html[m
+	[31mmodificado:    public/post/index.html[m
+	[31mmodificado:    public/sitemap.xml[m
+	[31mmodificado:    public/tags/blogdown/index.html[m
+	[31mmodificado:    public/tags/markdown/index.html[m
+	[31mmodificado:    public/tags/mathjax/index.html[m
+	[31mmodificado:    public/tags/pandoc/index.html[m
+	[31mmodificado:    public/tags/plot/index.html[m
+	[31mmodificado:    public/tags/r-markdown/index.html[m
+	[31mmodificado:    public/tags/regression/index.html[m
+	[31mmodificado:    public/tags/rstudio/index.html[m
+	[31mmodificado:    public/tags/tutorial/index.html[m
+	[31mmodificado:    static/css/style.css[m
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	[31mlayouts/index.html[m
+	[31mlayouts/partials/footer.html[m
+	[31mlayouts/partials/header.html[m
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ gti b[K[K[K[Kit branch
+  Branch1[m
+  master[m
+* [32mtankatheme[m
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git stat[K[K[K[K[K[K[K[Kgit add -A

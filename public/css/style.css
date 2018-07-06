@@ -48,3 +48,58 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
+
+.posts_listing a,#nav a {
+  text-decoration: none;
+}
+
+
+/* items */
+li {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-left: 5px;
+}
+
+ul li {
+  list-style-type: none;
+}
+/*
+ul li:before {
+  content:"\00BB \0020 \00a0";
+}
+*/
+
+#nav ul li:before, .posts_listing li:before {
+  content:'';
+  margin-right:0;
+}
+
+#content {
+  text-align: left;
+  width: 100%;
+  font-size: 17px;
+  padding: 60px 0 80px;
+}
+
+#content h1,#content h2 {
+  margin-bottom: 5px;
+}
+
+#content h2 {
+  font-size: 25px;
+}
+
+#content .entry-content {
+  margin-top: 16px;
+}
+
+#content time {
+  margin-left:3px;
+}
+
+#content h1 {
+  font-size: 30px;
+}
