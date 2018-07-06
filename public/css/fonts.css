@@ -1,7 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600'); */
+
 body {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
+}
+
+pre, code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.sans,html .gist .gist-file .gist-meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.mono,pre,code,tt,p code,li code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.heading,.serif,h1,h2,h3 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }

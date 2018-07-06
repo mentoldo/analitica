@@ -236,3 +236,11 @@ no hay cambios agregados al commit (use «git add» o «git commit -a»)
   master[m
 * [32mtankatheme[m
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git stat[K[K[K[K[K[K[K[Kgit add -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Andt[K[Ktes de gua[K[Kran [K[K[K[K[Kla gran gran[K[K[K[K[K[K[K[K[K[K[K[K[K nuevo estilo"
+[tankatheme e46a673] Antes de nuevo estilo
+ 33 files changed, 295 insertions(+), 78 deletions(-)
+ rewrite .Rproj.user/C283AFD6/console06/INDEX001 (86%)
+ create mode 100644 layouts/index.html
+ create mode 100644 layouts/partials/footer.html
+ create mode 100644 layouts/partials/header.html
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A

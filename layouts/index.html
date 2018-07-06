@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-  <h1><a href="/">AnalíticA</a></h1>
   <ul class=posts_listing>
     {{ range .Data.Pages.ByDate.Reverse }}
       <li>
