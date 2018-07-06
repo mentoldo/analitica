@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AnalíticA on Analítica Blog</title>
+    <title>Analítica Blog</title>
     <link>/</link>
-    <description>Recent content in AnalíticA on Analítica Blog</description>
+    <description>Recent content on Analítica Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -64,10 +64,10 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
     
     <item>
       <title>Acerca de AnalíticA</title>
-      <link>/about/</link>
+      <link>/_about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/_about/</guid>
       <description>Analítica es un espacio de difusión de información relacionada a Ciencia de Datos y Estadística. Creemos en el conocimiento basado en la evidencia y en la libertad de información. Consideramos el acceso universal al conocimiento y a la educación como herramienta fundamental para la resolución de problemas sociales. Compartiremos por este medio artículos producto de análisis de datos, herramientas y soluciones informáticas y estadísticas.
 Colaboradores  .contenedor{ display:flex; flex-wrap: wrap; align-items: center; background-color: #f1f1f1; } .</description>
     </item>

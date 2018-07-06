@@ -192,8 +192,9 @@ a {
     column-count: 3;
 }
 
-.terms h1 {
+.tlista h1 {
     margin-bottom: 0.5em;
+    font-size:30px;
 }
 
 #sub-header, time {
@@ -242,12 +243,22 @@ ul li:before {
   padding: 60px 0 80px;
 }
 
+#categorias{
+  padding: 0px 0 80px;
+}
+
+
 #content h1,#content h2 {
   margin-bottom: 5px;
 }
 
+
 #content h2 {
   font-size: 25px;
+}
+
+#categorias h2{
+   font-size: 25px;
 }
 
 #content .entry-content {
