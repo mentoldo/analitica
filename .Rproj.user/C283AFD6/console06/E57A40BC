@@ -244,3 +244,13 @@ no hay cambios agregados al commit (use «git add» o «git commit -a»)
  create mode 100644 layouts/partials/footer.html
  create mode 100644 layouts/partials/header.html
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git m[Kcm[Kommit "Estilo mov[K[K[K[K[K[K[K[K[K[K[K[K -m "Estilo modificado"
+[tankatheme f77a452] Estilo modificado
+ 61 files changed, 1682 insertions(+), 603 deletions(-)
+ rename {themes/hugo-xmin/layouts => layouts}/_default/single.html (51%)
+ create mode 100644 public/note/a-quick-note/index.html
+ create mode 100644 public/note/another-note/index.html
+ create mode 100644 public/post/2015-07-23-lorem-ipsum/index.html
+ create mode 100644 public/post/2015-07-23-r-rmarkdown/index.html
+ create mode 100644 public/post/2016-02-14-hello-markdown/index.html
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
