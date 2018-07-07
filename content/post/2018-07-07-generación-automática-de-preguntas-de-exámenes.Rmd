@@ -1,0 +1,36 @@
+---
+title: Generación automática de preguntas de Estadística
+author: Matías A. Alfonso
+date: '2018-07-07'
+slug: generación-automática-de-preguntas-de-exámenes
+categories:
+  - R
+tags:
+  - e-learning r-exams estadistica
+---
+
+* presentación  
+
+Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes, el cual hemos comenzado a implementar progresivamente en los exámenes de Psicoestadística de la Facultad de Psicología.
+
+## r-exams
+
+El sistema de generación de preguntas está basado en [r-exams](http://www.r-exams.org/), una librería de [R](https://www.r-project.org/) open-source que permite elaborar diferentes [tipos de preguntas](http://www.r-exams.org/intro/dynamic/) y a partir de ella, generar exámenes para varios sistemas: [exámenes escritos](http://www.r-exams.org/intro/written/) PDF (con evaluación automática), exámenes para importar en diversas [plataformas de aprendizaje](http://www.r-exams.org/intro/elearning/) (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc).
+
+Antes de continuar, explicaré brevemente
+
+Venimos desarrollando una base de preguntas para un sistema de generación automática de preguntas
+
+Creamos un proyecto libre, de código abierto
+
+Este proyecto tiene dos objetivos principales. Por un lado, generar una base de preguntas dinámicas de acceso libre. Por el otro, generar una sistema de clasificación de estas preguntas, en relación contenidos teóricos y a procesos psicológicos involucrados en su resolución.
+
+## Base de preguntas
+Hasta el momento hemos creado 18 preguntas **single choice** con cuatro opciones de respuesta.
+
+## Instructivo
+
+
+
+* enlace a github
+
