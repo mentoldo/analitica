@@ -1,6 +1,8 @@
 ---
-title: Acerca de AnalíticA
----
+draft: false 
+layout: "about"
+type: "about"
+---  
 
 **Analítica** es un espacio de difusión de información relacionada a Ciencia de Datos y Estadística. 
 Creemos en el conocimiento basado en la evidencia y en la libertad de información.

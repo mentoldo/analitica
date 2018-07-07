@@ -63,11 +63,11 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     
     <item>
-      <title>Acerca de AnalíticA</title>
-      <link>/_about/</link>
+      <title></title>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/_about/</guid>
+      <guid>/about/</guid>
       <description>Analítica es un espacio de difusión de información relacionada a Ciencia de Datos y Estadística. Creemos en el conocimiento basado en la evidencia y en la libertad de información. Consideramos el acceso universal al conocimiento y a la educación como herramienta fundamental para la resolución de problemas sociales. Compartiremos por este medio artículos producto de análisis de datos, herramientas y soluciones informáticas y estadísticas.
 Colaboradores  .contenedor{ display:flex; flex-wrap: wrap; align-items: center; background-color: #f1f1f1; } .</description>
     </item>
