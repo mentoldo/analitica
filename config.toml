@@ -28,5 +28,5 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; Analítica, 2018"
+    footer = "&copy; Analítica, 2018 - [mail](mailto:matias.alfonso@gmail.com)"
     sitename = "AnalíticA"

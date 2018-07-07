@@ -73,8 +73,8 @@ Some code (with a drop-shadow effect):
   }
 })();
 ```
-
-A table (centered by default):
+  
+A table (centered by default):  
 
 | Sepal.Length| Sepal.Width| Petal.Length| Petal.Width|Species |
 |------------:|-----------:|------------:|-----------:|:-------|
@@ -84,7 +84,7 @@ A table (centered by default):
 |          4.6|         3.1|          1.5|         0.2|setosa  |
 |          5.0|         3.6|          1.4|         0.2|setosa  |
 |          5.4|         3.9|          1.7|         0.4|setosa  |
-
+  
 An image (automatically centered when it is appropriate):
 
 ![Happy Elmo](https://slides.yihui.name/gif/happy-elmo.gif)

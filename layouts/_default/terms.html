@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 
+<section id=content>
 <div class=tlista>
     {{if eq .Title "Categories"}}
     <h1>Categorías</h1>
@@ -22,5 +23,5 @@
       {{ end }}
   </div>
 </ul>
-
+</section>
 {{ partial "footer.html" . }}
