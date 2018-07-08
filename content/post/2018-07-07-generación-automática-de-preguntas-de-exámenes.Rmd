@@ -23,7 +23,7 @@ Venimos desarrollando una base de preguntas para un sistema de generación autom
 
 Creamos un proyecto libre, de código abierto
 
-Este proyecto tiene dos objetivos principales. Por un lado, generar una base de preguntas dinámicas de acceso libre. Por el otro, generar una sistema de clasificación de estas preguntas, en relación contenidos teóricos y a procesos psicológicos involucrados en su resolución.
+Este proyecto tiene dos objetivos principales. Por un lado, generar una base de preguntas dinámicas de acceso libre. Por el otro, generar una sistema de clasificación de estas preguntas, en relación a dificultad, contenidos teóricos y procesos psicológicos involucrados en su resolución.
 
 ## Base de preguntas
 Hasta el momento hemos creado 18 preguntas **single choice** con cuatro opciones de respuesta.

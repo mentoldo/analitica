@@ -464,3 +464,440 @@ remote:
 To https://gitlab.com/mentoldo/analitica.git
    43fde1d..df19bb2  tankatheme -> tankatheme
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A[KA
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git p[Kcommit -m "s[KSe creo p[Kel post de examenes ale[K[K[Kestadisticos[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpexm[Kams"
+[tankatheme a9177d2] Se creo el post de pexams
+ 21 files changed, 355 insertions(+), 11 deletions(-)
+ create mode 100644 "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.Rmd"
+ create mode 100644 "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.html"
+ create mode 100644 "public/post/generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes/index.html"
+ create mode 100644 public/tags/e-learning-r-exams-estadistica/index.html
+ create mode 100644 public/tags/e-learning-r-exams-estadistica/index.xml
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ (i-search)`': [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Se creo el post de pexams"[Kb[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$  hugo server --bind=192.19 --baseURL=http://192.168.0.29:1313
+ERROR 2018/07/07 22:28:32 port 1313 already in use, attempting to use an available port
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 44 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://192.168.0.29:39592/ (bind address 192.19)
+Press Ctrl+C to stop
+ERROR 2018/07/07 22:28:32 Error: listen tcp: lookup 192.19: no such host
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Se creo el post de pexams"[K hugo server --bind=192.19 --baseURL=http://192.168.0.29:1313
+ERROR 2018/07/07 22:28:42 port 1313 already in use, attempting to use an available port
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 53 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://192.168.0.29:43560/ (bind address 192.19)
+Press Ctrl+C to stop
+ERROR 2018/07/07 22:28:42 Error: listen tcp: lookup 192.19: no such host
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Se creo el post de pexams"add -A[Kcommit -m "Se creo el post de pexams"[Kgit commit -m "Se creo el post de pexams"[Kgit commit -m "Se creo el post de pexams"[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ 19[K[Khuge[Ko server --bind=192.178[K[K68,,[K[K.0.29 --baseURL=http.[K://192.18[K78[K[K68.0.29:1313
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 51 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://192.168.0.29:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site
+2018-07-07 22:31:20.585 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.html": REMOVE
+Total in 11 ms
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files/figure-html
+
+Static file changes detected
+2018-07-07 22:31:58.585 -0300
+File no longer exists in static dir, removing /post/2015-07-23-r-rmarkdown_files
+
+Change detected, rebuilding site
+2018-07-07 22:31:58.586 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png": CREATE
+Total in 12 ms
+
+Change detected, rebuilding site
+2018-07-07 22:32:00.585 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.knit.md": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.utf8.md": WRITE
+Total in 17 ms
+
+Change detected, rebuilding site
+2018-07-07 22:32:01.585 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.html": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.knit.md": REMOVE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.utf8.md": REMOVE
+Total in 8 ms
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/static/post/2015-07-23-r-rmarkdown_files
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/static/post/2015-07-23-r-rmarkdown_files/figure-html
+
+Static file changes detected
+2018-07-07 22:32:04.585 -0300
+Syncing post/2015-07-23-r-rmarkdown_files to /
+
+Change detected, rebuilding site
+2018-07-07 22:32:04.586 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.html": WRITE
+Total in 12 ms
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files/figure-html
+
+Static file changes detected
+2018-07-07 22:46:37.585 -0300
+File no longer exists in static dir, removing /post/2015-07-23-r-rmarkdown_files
+
+Change detected, rebuilding site
+2018-07-07 22:46:37.586 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png": CREATE
+Total in 15 ms
+
+Change detected, rebuilding site
+2018-07-07 22:46:38.588 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.html": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.knit.md": REMOVE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.utf8.md": REMOVE
+Total in 10 ms
+
+Change detected, rebuilding site
+2018-07-07 22:46:39.585 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2015-07-23-r-rmarkdown.html": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.knit.md": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.utf8.md": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.html": WRITE
+Total in 16 ms
+
+Change detected, rebuilding site
+2018-07-07 22:46:40.585 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.html": WRITE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.knit.md": REMOVE
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.utf8.md": REMOVE
+Total in 14 ms
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/static/post/2015-07-23-r-rmarkdown_files
+adding created directory to watchlist /home/psyche/Escritorio/blogs/analitica/static/post/2015-07-23-r-rmarkdown_files/figure-html
+
+Static file changes detected
+2018-07-07 22:46:43.585 -0300
+Syncing post/2015-07-23-r-rmarkdown_files to /
+
+Change detected, rebuilding site
+2018-07-07 22:46:43.586 -0300
+Source changed "/home/psyche/Escritorio/blogs/analitica/content/post/2018-07-07-generación-automática-de-preguntas-de-exámenes.html": WRITE
+Total in 13 ms
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://192.168.0.29:1313 -D [A
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 42 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://192.168.0.29:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://192.168.0.29:1313 -D [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PD
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD[1PD-D2.168.0.29:1313[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pgit commit -m "Se creo el post de pexams"hugo server --bind=192.168.0.29 --baseURL=http://192.168.0.29:1313[C[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:1313[1P:13131:13138:13131:1313.:13131:13137:13131:1313.:13139:13135:1313.:13134:13131:1313[1P:1313[1P:13131:13136:13133:1313[C[C[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:13131 --baseURL=http://181.171.95.163:13138 --baseURL=http://181.171.95.163:13131 --baseURL=http://181.171.95.163:1313. --baseURL=http://181.171.95.163:13131 --baseURL=http://181.171.95.163:13137 --baseURL=http://181.171.95.163:13131 --baseURL=http://181.171.95.163:1313. --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P --baseURL=http://181.171.95.163:1313[1P--baseURL=http://181.171.95.163:1313
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 44 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --baseURL=http://181.171.95.163:1313ind=192.168.0.29 --baseURL=http://19-D2.168.0.29:1313[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K181.171.95.163
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 52 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 39 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555^C
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555[C[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:5555[1P --baseURL=http://181.171.95.163:55551 --baseURL=http://181.171.95.163:55558 --baseURL=http://181.171.95.163:55551 --baseURL=http://181.171.95.163:5555. --baseURL=http://181.171.95.163:55551 --baseURL=http://181.171.95.163:55557 --baseURL=http://181.171.95.163:55551 --baseURL=http://181.171.95.163:5555. --baseURL=http://181.171.95.163:55559 --baseURL=http://181.171.95.163:55555 --baseURL=http://181.171.95.163:5555. --baseURL=http://181.171.95.163:55551 --baseURL=http://181.171.95.163:55556 --baseURL=http://181.171.95.163:5555 [A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ERROR 2018/07/07 23:05:09 port 1313 already in use, attempting to use an available port
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 42 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:44284/ (bind address 181.171.95.163)
+Press Ctrl+C to stop
+ERROR 2018/07/07 23:05:09 Error: listen tcp 181.171.95.163:44284: bind: cannot assign requested address
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=181.171.95.163 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P92.168.0.29 --baseURL=http://181.171.95.163:5555
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 44 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555[K[K[K81.171.95.163 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P92.168.0.29 --baseURL=http://181.171.95.163:5
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5[K5555
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 42 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^[[A^[[B^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555[C[C[C81.171.95.163 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P92.168.0.29 --baseURL=http://181.171.95.163:5555
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163:5555: --baseURL=http://181.171.95.163:5555 [A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 --baseURL=http://181.171.95.163:5555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 --baseURL=http://181.171.95.163:55[C5[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 --baseURL=http://181.171.95.163:5[C[C5[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ERROR 2018/07/07 23:08:02 port 1313 already in use, attempting to use an available port
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 47 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:34815/ (bind address 192.168.0.29:1313)
+Press Ctrl+C to stop
+ERROR 2018/07/07 23:08:02 Error: listen tcp: lookup 192.168.0.29:1313: no such host
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29:1313 --baseURL=http://181.171.95.163:55555[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K3
+ERROR 2018/07/07 23:08:09 port 1313 already in use, attempting to use an available port
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 42 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:36955/ (bind address 192.168.0.29:1313)
+Press Ctrl+C to stop
+ERROR 2018/07/07 23:08:10 Error: listen tcp: lookup 192.168.0.29:1313: no such host
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29:1313 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P --baseURL=http://181.171.95.163:5555
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C81.171.95.163 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P92.168.0.29 --baseURL=http://181.171.95.163:5555
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 50 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.163:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^[[A^[[A^[[A^[[B                ^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.163.5555[K[K[K[K[K[K:1313 --baseURL=http://181.171.95.163[6P --baseURL=http://181.171.95.16:1313 --baseURL=http://181.171.95.163:55555[A]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P --baseURL=http://181.171.95.16[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khugo server --bind=192.168.0.29 --baseURL=http://181.171.95.16:5555
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 41 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.16:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ hugo server --bind=192.168.0.29 --baseURL=http://181.171.95.16:5555[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khugo server --bind=192.168.0.29 --baseURL=http://181.171.95.16:5555
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 44  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 46 ms
+Watching for changes in /home/psyche/Escritorio/blogs/analitica/{content,data,layouts,static,themes}
+Watching for config changes in /home/psyche/Escritorio/blogs/analitica/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://181.171.95.16:1313/ (bind address 192.168.0.29)
+Press Ctrl+C to stop
+^C]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
+En la rama tankatheme
+Su rama está delante de «origin/tankatheme» para 1 commit.
+  (use "git push" to publish your local commits)
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
+	[31mmodificado:    .Rproj.user/C283AFD6/console06/INDEX001[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/1538E427[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/2854B869[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/F51A082B[m
+	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/INDEX[m
+	[31mmodificado:    .Rproj.user/shared/notebooks/paths[m
+	[31mmodificado:    "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.Rmd"[m
+	[31mmodificado:    "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.html"[m
+	[31mmodificado:    "public/post/generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes/index.html"[m
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
