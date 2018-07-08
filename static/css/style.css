@@ -209,6 +209,10 @@ a {
   font-size: 17px;
 }
 
+.autor{
+    color:#a02828;
+}
+
 #sub-header {
   margin: 0 4px;
 }
@@ -343,6 +347,28 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
+
+/* Acerca de */
+.contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f1f1f1;
+
+}
+
+.contenedor > div{
+    width: 200px;
+    margin: 10px;
+
+}
+
+
+.subcontenedor{
+    display:flex;
+    flex-flow: column;
+    flex-grow: 8;
+}
 
 @media (max-width: 750px) {
   body {

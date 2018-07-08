@@ -1,8 +1,9 @@
 {{ partial "header.html" . }}
 
-<div class="tlista">
+<section id=content>
+
     <h1>{{ .Title }}</h1>
-</div>
+
 <section id=categorias>
       <ul class=posts_listing>
           
@@ -16,6 +17,6 @@
         {{ end }}
       </ul>
 </section>
-
+</section>
 
 {{ partial "footer.html" . }}

@@ -17,7 +17,7 @@
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/generaci%C3%B3n-autom%C3%A1tica-de-preguntas-de-ex%C3%A1menes/</guid>
-      <description>presentación  Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes, el cual hemos comenzado a implementar progresivamente en los exámenes de Psicoestadística de la Facultad de Psicología.
+      <description>Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes, el cual hemos comenzado a implementar progresivamente en los exámenes de Psicoestadística de la Facultad de Psicología.
 r-exams El sistema de generación de preguntas está basado en r-exams, una librería de R open-source que permite elaborar diferentes tipos de preguntas y a partir de ella, generar exámenes para varios sistemas: exámenes escritos PDF (con evaluación automática), exámenes para importar en diversas plataformas de aprendizaje (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc).</description>
     </item>
     
@@ -78,8 +78,7 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Analítica es un espacio de difusión de información relacionada a Ciencia de Datos y Estadística. Creemos en el conocimiento basado en la evidencia y en la libertad de información. Consideramos el acceso universal al conocimiento y a la educación como herramienta fundamental para la resolución de problemas sociales. Compartiremos por este medio artículos producto de análisis de datos, herramientas y soluciones informáticas y estadísticas.
-Colaboradores  .contenedor{ display:flex; flex-wrap: wrap; align-items: center; background-color: #f1f1f1; } .</description>
+      <description>Analítica es un espacio de difusión de información relacionada a Ciencia de Datos y Estadística. Creemos en el conocimiento basado en la evidencia y en la libertad de información. Consideramos el acceso universal al conocimiento y a la educación como herramienta fundamental para la resolución de problemas sociales. Compartiremos por este medio artículos producto de análisis de datos, herramientas y soluciones informáticas y estadísticas.</description>
     </item>
     
   </channel>

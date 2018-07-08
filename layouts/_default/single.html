@@ -2,7 +2,7 @@
 <section id=content>
 <h1><span class="title">{{ .Title }}</span></h1>
  <div id=sub-header>
-    {{ .Params.author }} · {{ .Date.Format (.Site.Params.dateform | default "02-01-2006") }} · {{ .ReadingTime }} Minutos de lectura
+    <a href="{{ "/about#colaboradores" | relURL }}" class="autor">{{ .Params.author }}</a> · {{ .Date.Format (.Site.Params.dateform | default "02-01-2006") }} · {{ .ReadingTime }} Minutos de lectura
   </div>
 </div>
 
