@@ -1,9 +1,4 @@
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git init
-Initialized empty Git repository in /home/psyche/Escritorio/blogs/analitica/.git/
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add .[K-A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ c[Kgit push -m[KM[Km "f[KFirst C[Kcommit"
-error: unknown switch `m'
-uso: git push [<options>] [<repository> [<refspec>...]]
+
 
     -v, --verbose         be more verbose
     -q, --quiet           be more quiet
@@ -921,3 +916,87 @@ remote:
 To https://gitlab.com/mentoldo/analitica.git
    df19bb2..d32dc82  tankatheme -> tankatheme
 [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commmit -m "Alguns[Kas [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstatus
+En la rama tankatheme
+Su rama está actualizada con «origin/tankatheme».
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	[32mmodificado:    .RData[m
+	[32mmodificado:    .Rhistory[m
+	[32mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
+	[32mmodificado:    .Rproj.user/C283AFD6/console06/INDEX001[m
+	[32mmodificado:    .Rproj.user/C283AFD6/pcs/source-pane.pper[m
+	[32mmodificado:    .Rproj.user/C283AFD6/pcs/windowlayoutstate.pper[m
+	[32mmodificado:    .Rproj.user/C283AFD6/pcs/workbench-pane.pper[m
+	[32mmodificado:    .Rproj.user/C283AFD6/rmd-outputs[m
+	[32mmodificado:    .Rproj.user/C283AFD6/sources/prop/1538E427[m
+	[32mmodificado:    .Rproj.user/C283AFD6/sources/prop/1B0822E4[m
+	[32mmodificado:    .Rproj.user/C283AFD6/sources/prop/2854B869[m
+	[32mmodificado:    .Rproj.user/C283AFD6/sources/prop/DC839128[m
+	[32mmodificado:    .Rproj.user/C283AFD6/sources/prop/DDD243DE[m
+	[32mmodificado:    .Rproj.user/C283AFD6/sources/prop/E34A2D80[m
+	[32mmodificado:    content/about.md[m
+	[32mmodificado:    "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.Rmd"[m
+	[32mmodificado:    "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.html"[m
+	[32mmodificado:    layouts/_default/list.html[m
+	[32mmodificado:    layouts/_default/single.html[m
+	[32mcopied:        content/about.md -> layouts/about/about.html[m
+	[32mmodificado:    public/about/index.html[m
+	[32mmodificado:    public/categories/example/index.html[m
+	[32mmodificado:    public/categories/hugo/index.html[m
+	[32mmodificado:    public/categories/r/index.html[m
+	[32mmodificado:    public/categories/r/index.xml[m
+	[32mmodificado:    public/css/style.css[m
+	[32mmodificado:    public/index.xml[m
+	[32mmodificado:    public/note/a-quick-note/index.html[m
+	[32mmodificado:    public/note/another-note/index.html[m
+	[32mmodificado:    public/note/index.html[m
+	[32mmodificado:    public/post/2015-07-23-lorem-ipsum/index.html[m
+	[32mmodificado:    public/post/2015-07-23-r-rmarkdown/index.html[m
+	[32mmodificado:    public/post/2016-02-14-hello-markdown/index.html[m
+	[32mmodificado:    "public/post/generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes/index.html"[m
+	[32mmodificado:    public/post/index.html[m
+	[32mmodificado:    public/post/index.xml[m
+	[32mmodificado:    public/tags/blogdown/index.html[m
+	[32mmodificado:    public/tags/e-learning-r-exams-estadistica/index.html[m
+	[32mmodificado:    public/tags/e-learning-r-exams-estadistica/index.xml[m
+	[32mmodificado:    public/tags/markdown/index.html[m
+	[32mmodificado:    public/tags/mathjax/index.html[m
+	[32mmodificado:    public/tags/pandoc/index.html[m
+	[32mmodificado:    public/tags/plot/index.html[m
+	[32mmodificado:    public/tags/r-markdown/index.html[m
+	[32mmodificado:    public/tags/regression/index.html[m
+	[32mmodificado:    public/tags/rstudio/index.html[m
+	[32mmodificado:    public/tags/tutorial/index.html[m
+	[32mmodificado:    static/css/style.css[m
+
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
+
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Algunas modificaciones de estilo"
+[tankatheme 1ffc302] Algunas modificaciones de estilo
+ 48 files changed, 254 insertions(+), 242 deletions(-)
+ rewrite .Rproj.user/C283AFD6/console06/INDEX001 (86%)
+ rewrite content/about.md (79%)
+ copy content/about.md => layouts/about/about.html (61%)
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
+a error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://gitlab.com': a1b12     mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@gitlab.com': 
+Counting objects: 86, done.
+Delta compression using up to 6 threads.
+Compressing objects:   1% (1/76)   Compressing objects:   2% (2/76)   Compressing objects:   3% (3/76)   Compressing objects:   5% (4/76)   Compressing objects:   6% (5/76)   Compressing objects:   7% (6/76)   Compressing objects:   9% (7/76)   Compressing objects:  10% (8/76)   Compressing objects:  11% (9/76)   Compressing objects:  13% (10/76)   Compressing objects:  14% (11/76)   Compressing objects:  15% (12/76)   Compressing objects:  17% (13/76)   Compressing objects:  18% (14/76)   Compressing objects:  19% (15/76)   Compressing objects:  21% (16/76)   Compressing objects:  22% (17/76)   Compressing objects:  23% (18/76)   Compressing objects:  25% (19/76)   Compressing objects:  26% (20/76)   Compressing objects:  27% (21/76)   Compressing objects:  28% (22/76)   Compressing objects:  30% (23/76)   Compressing objects:  31% (24/76)   Compressing objects:  32% (25/76)   Compressing objects:  34% (26/76)   Compressing objects:  35% (27/76)   Compressing objects:  36% (28/76)   Compressing objects:  38% (29/76)   Compressing objects:  39% (30/76)   Compressing objects:  40% (31/76)   Compressing objects:  42% (32/76)   Compressing objects:  43% (33/76)   Compressing objects:  44% (34/76)   Compressing objects:  46% (35/76)   Compressing objects:  47% (36/76)   Compressing objects:  48% (37/76)   Compressing objects:  50% (38/76)   Compressing objects:  51% (39/76)   Compressing objects:  52% (40/76)   Compressing objects:  53% (41/76)   Compressing objects:  55% (42/76)   Compressing objects:  56% (43/76)   Compressing objects:  57% (44/76)   Compressing objects:  59% (45/76)   Compressing objects:  60% (46/76)   Compressing objects:  61% (47/76)   Compressing objects:  63% (48/76)   Compressing objects:  64% (49/76)   Compressing objects:  65% (50/76)   Compressing objects:  67% (51/76)   Compressing objects:  68% (52/76)   Compressing objects:  69% (53/76)   Compressing objects:  71% (54/76)   Compressing objects:  72% (55/76)   Compressing objects:  73% (56/76)   Compressing objects:  75% (57/76)   Compressing objects:  76% (58/76)   Compressing objects:  77% (59/76)   Compressing objects:  78% (60/76)   Compressing objects:  80% (61/76)   Compressing objects:  81% (62/76)   Compressing objects:  82% (63/76)   Compressing objects:  84% (64/76)   Compressing objects:  85% (65/76)   Compressing objects:  86% (66/76)   Compressing objects:  88% (67/76)   Compressing objects:  89% (68/76)   Compressing objects:  90% (69/76)   Compressing objects:  92% (70/76)   Compressing objects:  93% (71/76)   Compressing objects:  94% (72/76)   Compressing objects:  96% (73/76)   Compressing objects:  97% (74/76)   Compressing objects:  98% (75/76)   Compressing objects: 100% (76/76)   Compressing objects: 100% (76/76), done.
+Writing objects:   1% (1/86)   Writing objects:   2% (2/86)   Writing objects:   3% (3/86)   Writing objects:   4% (4/86)   Writing objects:   5% (5/86)   Writing objects:   6% (6/86)   Writing objects:   8% (7/86)   Writing objects:   9% (8/86)   Writing objects:  10% (9/86)   Writing objects:  11% (10/86)   Writing objects:  12% (11/86)   Writing objects:  13% (12/86)   Writing objects:  15% (13/86)   Writing objects:  16% (14/86)   Writing objects:  17% (15/86)   Writing objects:  18% (16/86)   Writing objects:  19% (17/86)   Writing objects:  20% (18/86)   Writing objects:  22% (19/86)   Writing objects:  23% (20/86)   Writing objects:  24% (21/86)   Writing objects:  25% (22/86)   Writing objects:  26% (23/86)   Writing objects:  27% (24/86)   Writing objects:  29% (25/86)   Writing objects:  30% (26/86)   Writing objects:  31% (27/86)   Writing objects:  32% (28/86)   Writing objects:  33% (29/86)   Writing objects:  34% (30/86)   Writing objects:  36% (31/86)   Writing objects:  37% (32/86)   Writing objects:  38% (33/86)   Writing objects:  39% (34/86)   Writing objects:  40% (35/86)   Writing objects:  41% (36/86)   Writing objects:  43% (37/86)   Writing objects:  44% (38/86)   Writing objects:  45% (39/86)   Writing objects:  46% (40/86)   Writing objects:  47% (41/86)   Writing objects:  48% (42/86)   Writing objects:  50% (43/86)   Writing objects:  51% (44/86)   Writing objects:  52% (45/86)   Writing objects:  53% (46/86)   Writing objects:  54% (47/86)   Writing objects:  55% (48/86)   Writing objects:  56% (49/86)   Writing objects:  58% (50/86)   Writing objects:  59% (51/86)   Writing objects:  60% (52/86)   Writing objects:  61% (53/86)   Writing objects:  62% (54/86)   Writing objects:  63% (55/86)   Writing objects:  65% (56/86)   Writing objects:  66% (57/86)   Writing objects:  67% (58/86)   Writing objects:  68% (59/86)   Writing objects:  69% (60/86)   Writing objects:  70% (61/86)   Writing objects:  72% (62/86)   Writing objects:  73% (63/86)   Writing objects:  74% (64/86)   Writing objects:  75% (65/86)   Writing objects:  77% (67/86)   Writing objects:  79% (68/86)   Writing objects:  80% (69/86)   Writing objects:  81% (70/86)   Writing objects:  82% (71/86)   Writing objects:  83% (72/86)   Writing objects:  84% (73/86)   Writing objects:  86% (74/86)   Writing objects:  87% (75/86)   Writing objects:  88% (76/86)   Writing objects:  89% (77/86)   Writing objects:  90% (78/86)   Writing objects:  91% (79/86)   Writing objects:  93% (80/86)   Writing objects:  94% (81/86)   Writing objects:  95% (82/86)   Writing objects:  96% (83/86)   Writing objects:  97% (84/86)   Writing objects:  98% (85/86)   Writing objects: 100% (86/86)   Writing objects: 100% (86/86), 12.99 KiB | 0 bytes/s, done.
+Total 86 (delta 38), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for tankatheme, visit:[K
+remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
+remote: 
+To https://gitlab.com/mentoldo/analitica.git
+   d32dc82..1ffc302  tankatheme -> tankatheme
+git add -A

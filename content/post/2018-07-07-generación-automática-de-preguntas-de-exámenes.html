@@ -6,27 +6,124 @@ slug: generación-automática-de-preguntas-de-exámenes
 categories:
   - R
 tags:
-  - e-learning r-exams estadistica
+  - e-learning
+  - r-exams
+  - estadistica
 ---
 
 
 
-<p>Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes, el cual hemos comenzado a implementar progresivamente en los exámenes de Psicoestadística de la Facultad de Psicología.</p>
-<div id="r-exams" class="section level2">
-<h2>r-exams</h2>
-<p>El sistema de generación de preguntas está basado en <a href="http://www.r-exams.org/">r-exams</a>, una librería de <a href="https://www.r-project.org/">R</a> open-source que permite elaborar diferentes <a href="http://www.r-exams.org/intro/dynamic/">tipos de preguntas</a> y a partir de ella, generar exámenes para varios sistemas: <a href="http://www.r-exams.org/intro/written/">exámenes escritos</a> PDF (con evaluación automática), exámenes para importar en diversas <a href="http://www.r-exams.org/intro/elearning/">plataformas de aprendizaje</a> (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc).</p>
-<p>Antes de continuar, explicaré brevemente</p>
-<p>Venimos desarrollando una base de preguntas para un sistema de generación automática de preguntas</p>
-<p>Creamos un proyecto libre, de código abierto</p>
-<p>Este proyecto tiene dos objetivos principales. Por un lado, generar una base de preguntas dinámicas de acceso libre. Por el otro, generar una sistema de clasificación de estas preguntas, en relación a dificultad, contenidos teóricos y procesos psicológicos involucrados en su resolución.</p>
-</div>
-<div id="base-de-preguntas" class="section level2">
-<h2>Base de preguntas</h2>
-<p>Hasta el momento hemos creado 18 preguntas <strong>single choice</strong> con cuatro opciones de respuesta.</p>
-</div>
+<p>Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes de evaluación. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes de estadística, el cual hemos comenzado a implementar progresivamente en la cátedra de Psicoestadística de la Facultad de Psicología de la Universidad Nacional de Córdoba.</p>
+<p>El sistema de generación de preguntas está basado en <a href="http://www.r-exams.org/">r-exams</a>, una librería de <a href="https://www.r-project.org/">R</a> open-source que permite elaborar diferentes <a href="http://www.r-exams.org/intro/dynamic/">tipos de preguntas</a> y a partir de ella, generar exámenes para varios sistemas: <a href="http://www.r-exams.org/intro/written/">exámenes escritos</a> PDF (con evaluación automática), exámenes para importar en diversas <a href="http://www.r-exams.org/intro/elearning/">plataformas de aprendizaje</a> (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc). Para generar las preguntas, <code>rexams</code> permite utilizar las sintaxis de <code>rmarkdown</code> o <code>sweave</code>.</p>
+<p>Hemos creado un <a href="https://github.com/mentoldo/exam_stat">proyecto</a>, open source, con dos objetivos principales. Por un lado, generar una base de preguntas dinámicas de acceso libre. Por el otro, generar una sistema de clasificación de estas preguntas, en relación a dificultad, contenidos teóricos y procesos psicológicos involucrados en su resolución. Hasta el momento hemos creado 18 preguntas <strong>single choice</strong> con cuatro opciones de respuesta. La carpeta preguntas contiene un archivo por cada pregunta generada. Además en el proyecto, se encuentra una archivo <em>README.md</em> con especificaciones y documentación</p>
 <div id="instructivo" class="section level2">
 <h2>Instructivo</h2>
+<p>Para utilizar la base de preguntas es necesarios tener instalado R. Además, en este instructivo, utilizaremos <a href="https://www.rstudio.com/">RStudio</a> para generar los exámenes de ejemplo. Primero instalaremos el paquete <code>rexams</code>:</p>
+<pre class="r"><code>install.packages(&quot;rexams&quot;)</code></pre>
+<p><code>rexams</code> instalará automáticamente la mayoría de las dependencias necesarias para su utilización. Sin embargo, si alguna dependencia no está satisfecha, deberemos instalarla también. En el caso que querramos generar un examen escrito, también tendremos que tener instalado <a href="https://www.latex-project.org/get/">Latex</a> en nuestra computadora.<br />
+Una vez instaladas las dependencias, procederemos a descargar el <a href="https://github.com/mentoldo/exam_stat">proyecto</a>, haciendo click en clone or download, o, si preferimos la consola:</p>
+<pre class="git"><code>git clone https://github.com/mentoldo/exam_stat</code></pre>
+<p>Si utilizamos RStudio, podremos abrir el proyecto directamente desde el archivo <em>exam_stat.Rproj</em>. Esto configurará automáticamente el directorio de trabajo en la carpeta donde se encuentra el proyecto. En el caso contrarió deberemos indicar el directorio de trabajo:</p>
+<pre class="r"><code>setwd(&quot;PATCH/A/PROYECTO&quot;)</code></pre>
+</div>
+<div id="moodle" class="section level2">
+<h2>Moodle</h2>
+<p>Abrimos el script <em>hacerExamenMoodle.R</em> y cargamos la librería <code>rexams</code></p>
+<pre class="r"><code>file.edit(&quot;hacerExamenMoodle.R&quot;)</code></pre>
+<p>Vamos a generar 100 preguntas aleatorias de <em>P_boxplot2.Rmd</em>.</p>
+<pre class="r"><code>## El argumento rule = &quot;none&quot; permite que las respuestas erradas no resten puntos
+## Hacer R2018_0004
+exams2moodle(&quot;./preguntas/html/P_boxplot2.Rmd&quot;,
+             n = 100,
+             name = &quot;R2018_0004&quot;,
+             rule = &quot;none&quot;,
+             dir = &quot;moodle&quot;)</code></pre>
+<p>Este código nos generará 100 preguntas diferentes listas para importar en moodle en el archivo <em>./moodle/Pboxplot2.xml</em>. Si queremos generar todas las preguntas disponibles en el proyecto, podremos ejecutar el resto del script.</p>
+<pre class="r"><code>## Creamos una función para exportar las preguntas
+preg &lt;- list.files(&quot;./preguntas/html&quot;, full.names = TRUE)
+
+exportar &lt;- function(x) {
+    exams2moodle(x,
+                 n = 100, # La cantidad de preguntas
+                 name = gsub(&quot;./preguntas/html/|.Rmd&quot;, &quot;&quot;, x), # Construye el nombre a partir del nombre original
+                 rule = &quot;none&quot;, # El argumento rule = &quot;none&quot; permite que las respuestas erradas no resten puntos
+                 dir = &quot;moodle&quot;) # Manda la salida a la carpeta moodle
+}
+
+## Exportamos todas las preguntas
+lapply(preg, exportar)</code></pre>
+<p>Ahora tendremos todas las preguntas que se encuentran en <em>preguntas/</em> convertidas en archivos <em>.xml</em> listos para importar en Moodle.</p>
+</div>
+<div id="examen-escrito" class="section level2">
+<h2>Exámen escrito</h2>
+<p>Veamos como generar un exámen escrito.</p>
+<pre class="r"><code>file.edit(&quot;ejemplosencilloNops.R&quot;)</code></pre>
+<p>A modo de mostrar cómo pueden variar las preguntas, generaremos un exámen con una sola pregunta, con componentes aleatorios, repetida 30 veces.</p>
+<pre class="r"><code>prueba &lt;- exams2nops(rep(&quot;preguntas/latex/R2018_0015_L.Rmd&quot;, 30),
+                      n = 1,
+                      dir = &quot;./examenes/ejemplosencillo/&quot;, 
+                      name = &quot;2018_formaA&quot;,
+                      title = &quot;Ejemplo&quot;,
+                      institution = &quot;Universidad Nacional de Córdoba&quot;,
+                      logo = &quot;/img/logo_UNC_2.png&quot;,
+                      date = &quot;2018-07-07&quot;,
+                      language = &quot;es&quot;,
+                      blank = 0,
+                      usepackage = c(&quot;inputenc&quot;, &quot;booktabs&quot;, &quot;longtable&quot;),
+                      encoding = &quot;utf-8&quot;,
+                      reglength = 8)</code></pre>
+<p>La función <code>exams2nops</code> tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades. Podemos observar que en el argumento logo se debe indicar el patch absoluto de la ubicación de la imagen.<br />
+Veamos ahora como generar un examen completo con 10 preguntas, eligiendo al azar entre las preguntas disponibles.</p>
+<pre class="r"><code>file.edit(&quot;hacerExamenNops.R&quot;)</code></pre>
+<p>Lo primero que haremos será listar todas las preguntas existentes. Para ello, he creado una función llamada <code>listarpreguntas</code> que hace ese trabajo. Cargamos la funcion y colocamos el listado de preguntas en una variable</p>
+<pre class="r"><code>source(&quot;listarpreguntas.R&quot;) ## la funcion listar preguntas lista todas
+## las preguntas para formato PDF
+
+preguntas &lt;- listarpreguntas()</code></pre>
+<p>En general, cuando utilizamos generación de datos aleatorios, es una buena costumbre utilizar la función <code>set.seed</code>, pues esto nos permitirá reproducir exactamente los mismos resultados. Esto podría ayudarnos por ejemplo a solucionar un problema o un error con una pregunta específica.</p>
+<pre class="r"><code>set.seed(-605196)</code></pre>
+<p>Del listado total de preguntas, seleccionaremos 10 al azar para la forma A, y 10 al azar para la forma B.</p>
+<pre class="r"><code>muestraA &lt;- sample(preguntas, 10)
+muestraB &lt;- sample(preguntas, 10)</code></pre>
+<p>Una vez elegidas las preguntas de cada forma, ejecutamos la instrucción para generar los exámenes. Generaremos dos modelos diferentes para cada forma.</p>
+<pre class="r"><code>## Forma A
+pruebaA &lt;- exams2nops(muestraA,
+                      n = 2,
+                      dir = &quot;./examenes/ejemplo/&quot;, 
+                      name = &quot;2018_formaA&quot;,
+                      title = &quot;Estadística, Forma A&quot;,
+                      institution = &quot;Universidad Nacional de Córdoba&quot;,
+                      logo = &quot;img/logo_UNC_2.png&quot;,
+                      date = &quot;2018-07-07&quot;,
+                      language = &quot;es&quot;,
+                      blank = 0,
+                      usepackage = c(&quot;inputenc&quot;, &quot;booktabs&quot;, &quot;longtable&quot;),
+                      encoding = &quot;utf-8&quot;,
+                      reglength = 8)
+
+## Forma B
+pruebaB &lt;- exams2nops(muestraB,
+                      n = 2,
+                      dir = &quot;./examenes/ejemplo/&quot;, 
+                      name = &quot;2018_formaB&quot;,
+                      title = &quot;Estadística, Forma B&quot;,
+                      institution = &quot;Universidad Nacional de Córdoba&quot;,
+                      logo = &quot;img/logo_UNC_2.png&quot;,
+                      date = &quot;2018-07-07&quot;,
+                      language = &quot;es&quot;,
+                      blank = 0,
+                      usepackage = c(&quot;inputenc&quot;, &quot;booktabs&quot;, &quot;longtable&quot;),
+                      encoding = &quot;utf-8&quot;,
+                      reglength = 8)</code></pre>
+<p>Ahora tenemos los exámenes creados en formato PDF en la dirección indicada <em>./examenes/ejemplo</em>.</p>
+<p>Si estás interesado en este proyecto, podés enviarme un mail a <a href="mailto:matias.alfonso@gmail.com">matias.alfonso@gmail.com</a>. Estimamos poder duplicar o triplicar la base de preguntas para fines de 2018. Algunos de los modos en los que podés colaborar son:</p>
 <ul>
-<li>enlace a github</li>
+<li>Indicando documentación incompleta o poco clara.<br />
+</li>
+<li>Identificando y reportando preguntas que tengan algún error.<br />
+</li>
+<li>Colaborando con la elaboración de preguntas nuevas.<br />
+</li>
+<li>Colaborando con la elaboración de un sistema de clasificación de las preguntas.</li>
 </ul>
 </div>
