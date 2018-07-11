@@ -2,7 +2,7 @@
 title: Generación automática de preguntas de Estadística
 author: Matías A. Alfonso
 date: '2018-07-07'
-slug: generación-automática-de-preguntas-de-exámenes
+slug: generacion-automatica
 categories:
   - R
 tags:
@@ -14,7 +14,7 @@ Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la impl
 
 
 
-El sistema de generación de preguntas está basado en [r-exams](http://www.r-exams.org/), una librería de [R](https://www.r-project.org/) open-source que permite elaborar diferentes [tipos de preguntas](http://www.r-exams.org/intro/dynamic/) y a partir de ella, generar exámenes para varios sistemas: [exámenes escritos](http://www.r-exams.org/intro/written/) PDF (con evaluación automática), exámenes para importar en diversas [plataformas de aprendizaje](http://www.r-exams.org/intro/elearning/) (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc). Para generar las preguntas, `rexams` permite utilizar las sintaxis de `rmarkdown` o `sweave`. 
+El sistema de generación de preguntas está basado en [r-exams](http://www.r-exams.org/), una librería de [R](https://www.r-project.org/) open-source que permite elaborar diferentes [tipos de preguntas](http://www.r-exams.org/intro/dynamic/) y a partir de ella, generar exámenes para varios sistemas: [exámenes escritos](http://www.r-exams.org/intro/written/) PDF (con evaluación automática), exámenes para importar en diversas [plataformas de aprendizaje](http://www.r-exams.org/intro/elearning/) (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc). Para generar las preguntas, `exams` permite utilizar las sintaxis de `rmarkdown` o `sweave`. 
 
 Hemos creado un [proyecto](https://github.com/mentoldo/exam_stat), open source, con dos objetivos principales. Por un lado, generar una base de preguntas dinámicas de acceso libre. Por el otro, generar una sistema de clasificación de estas preguntas, en relación a dificultad, contenidos teóricos y procesos psicológicos involucrados en su resolución.
 Hasta el momento hemos creado 18 preguntas **single choice** con cuatro opciones de respuesta. La carpeta preguntas contiene un archivo por cada pregunta generada. Además en el proyecto, se encuentra una archivo *README.md* con especificaciones y documentación
@@ -22,15 +22,15 @@ Hasta el momento hemos creado 18 preguntas **single choice** con cuatro opciones
 ## Instructivo
 
 Para utilizar la base de preguntas es necesarios tener instalado R. Además, en este instructivo, utilizaremos [RStudio](https://www.rstudio.com/) para generar los exámenes de ejemplo.
-Primero instalaremos el paquete `rexams`:
+Primero instalaremos el paquete `exams`:
 
-```{r rexams, eval = FALSE}
+```{r exams, eval = FALSE}
 
 install.packages("rexams")
 
 ```
 
-`rexams` instalará automáticamente la mayoría de las dependencias necesarias para su utilización. Sin embargo, si alguna dependencia no está satisfecha, deberemos instalarla también. En el caso que querramos generar un examen escrito, también tendremos que tener instalado [Latex](https://www.latex-project.org/get/) en nuestra computadora.  
+`exams` instalará automáticamente la mayoría de las dependencias necesarias para su utilización. Sin embargo, si alguna dependencia no está satisfecha, deberemos instalarla también. En el caso que querramos generar un examen escrito, también tendremos que tener instalado [Latex](https://www.latex-project.org/get/) en nuestra computadora.  
 Una vez instaladas las dependencias, procederemos a descargar el [proyecto](https://github.com/mentoldo/exam_stat), haciendo click en clone or download, o, si preferimos la consola:
 
 ```git
@@ -43,10 +43,12 @@ setwd("PATCH/A/PROYECTO")
 
 ## Moodle
 
-Abrimos el script *hacerExamenMoodle.R* y cargamos la librería `rexams`
+Abrimos el archivo *hacerExamenMoodle.R* y cargamos la librería `exams`
 
 ```r
 file.edit("hacerExamenMoodle.R")
+
+library(exams)
 ```
 
 Vamos a generar 100 preguntas aleatorias de *P_boxplot2.Rmd*.
@@ -56,7 +58,7 @@ Vamos a generar 100 preguntas aleatorias de *P_boxplot2.Rmd*.
 ## Hacer R2018_0004
 exams2moodle("./preguntas/html/P_boxplot2.Rmd",
              n = 100,
-             name = "R2018_0004",
+             name = "P_boxplot2",
              rule = "none",
              dir = "moodle")
 ```
@@ -79,15 +81,17 @@ lapply(preg, exportar)
 ```
 Ahora tendremos todas las preguntas que se encuentran en *preguntas/* convertidas en archivos *.xml* listos para importar en Moodle.
 
-## Exámen escrito
+<iframe width="560" height="315" src="https://www.youtube.com/embed/08UWCRCC004" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Veamos como generar un exámen escrito.
+## Examen escrito
+
+Veamos como generar un examen escrito.
 
 ```r
 file.edit("ejemplosencilloNops.R")
 ```
 
-A modo de mostrar cómo pueden variar las preguntas, generaremos un exámen con una sola pregunta, con componentes aleatorios, repetida 30 veces.
+A modo de mostrar cómo pueden variar las preguntas, generaremos un examen con una sola pregunta, repetida 30 veces.
 
 ```r
 prueba <- exams2nops(rep("preguntas/latex/R2018_0015_L.Rmd", 30),
@@ -105,7 +109,11 @@ prueba <- exams2nops(rep("preguntas/latex/R2018_0015_L.Rmd", 30),
                       reglength = 8)
 ```
 
-La función `exams2nops` tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades. Podemos observar que en el argumento logo se debe indicar el patch absoluto de la ubicación de la imagen.  
+Se generará el siguiente archivo en la carpeta *./examen/ejemplosencillo/*
+
+<a href="./doc/2018_formaA1.pdf" style = "margin:20px">2018_formaA1.pdf</a>
+
+La función `exams2nops` tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades.
 Veamos ahora como generar un examen completo con 10 preguntas, eligiendo al azar entre las preguntas disponibles.
 
 ```r
@@ -170,9 +178,23 @@ pruebaB <- exams2nops(muestraB,
 
 Ahora tenemos los exámenes creados en formato PDF en la dirección indicada *./examenes/ejemplo*.  
 
-Si estás interesado en este proyecto, podés enviarme un mail a matias.alfonso@gmail.com. Estimamos poder duplicar o triplicar la base de preguntas para fines de 2018. Algunos de los modos en los que podés colaborar son:  
+<a href="./doc/2018_formaA1_1.pdf" style = "margin:20px">2018_formaA1.pdf</a>
+<a href="./doc/2018_formaA2.pdf" style = "margin:20px">2018_formaA2.pdf</a>
+<a href="./doc/2018_formaB1.pdf" style = "margin:20px">2018_formaB1.pdf</a>
+<a href="./doc/2018_formaB2.pdf" style = "margin:20px">2018_formaB2.pdf</a>
 
-* Indicando documentación incompleta o poco clara.  
-* Identificando y reportando preguntas que tengan algún error.  
-* Colaborando con la elaboración de preguntas nuevas.  
-* Colaborando con la elaboración de un sistema de clasificación de las preguntas.
+
+Adicionalmente se genera un archivo *.rds*. Este archivo es utilizado para la corrección automática. `exams` tiene una función que nos permite corregir automáticamente los exámenes y generar un informe digital que eventualmente se puede enviar al alumno (http://www.r-exams.org/tutorials/exams2nops/). No hemos realizado experiencias con esta función, aunque actualmente estamos realizando algunos pilotos.  
+Si por alguna razón deseamos imprimir una hoja de respuesta para el examen, he creado una función llamada `impresp.R` que nos genera un archivo *.csv* con la grilla de respuestas.
+
+```r
+## Respuestas.
+solA <- exams_metainfo(pruebaA)
+solB <- exams_metainfo(pruebaB)
+
+## impresp (Imprimir respuestas) crea un archivo .csv con las respuestas correctas.
+source("impresp.R")
+impresp(solA, solB)
+```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CNcCDmgio_Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

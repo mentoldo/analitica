@@ -96,9 +96,9 @@ lapply(preg, exportar)</code></pre>
                       usepackage = c(&quot;inputenc&quot;, &quot;booktabs&quot;, &quot;longtable&quot;),
                       encoding = &quot;utf-8&quot;,
                       reglength = 8)</code></pre>
-<p>La función <code>exams2nops</code> tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades.</p>
+<p>Se generará el siguiente archivo en la carpeta <em>./examen/ejemplosencillo/</em></p>
 <p><a href="./doc/2018_formaA1.pdf" style = "margin:20px">2018_formaA1.pdf</a></p>
-<p>Veamos ahora como generar un examen completo con 10 preguntas, eligiendo al azar entre las preguntas disponibles.</p>
+<p>La función <code>exams2nops</code> tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades. Veamos ahora como generar un examen completo con 10 preguntas, eligiendo al azar entre las preguntas disponibles.</p>
 <pre class="r"><code>file.edit(&quot;hacerExamenNops.R&quot;)</code></pre>
 <p>Lo primero que haremos será listar todas las preguntas existentes. Para ello, he creado una función llamada <code>listarpreguntas</code> que hace ese trabajo. Cargamos la funcion y colocamos el listado de preguntas en una variable</p>
 <pre class="r"><code>source(&quot;listarpreguntas.R&quot;) ## la funcion listar preguntas lista todas
@@ -140,8 +140,9 @@ pruebaB &lt;- exams2nops(muestraB,
                       usepackage = c(&quot;inputenc&quot;, &quot;booktabs&quot;, &quot;longtable&quot;),
                       encoding = &quot;utf-8&quot;,
                       reglength = 8)</code></pre>
-<p>Ahora tenemos los exámenes creados en formato PDF en la dirección indicada <em>./examenes/ejemplo</em>.<br />
-Adicionalmente se genera un archivo <em>.rds</em>. Este archivo es utilizado para la corrección automática. <code>exams</code> tiene una función que nos permite corregir automáticamente los exámenes y generar un informe digital que eventualmente se puede enviar al alumno (<a href="http://www.r-exams.org/tutorials/exams2nops/" class="uri">http://www.r-exams.org/tutorials/exams2nops/</a>). No hemos realizado experiencias con esta función, aunque actualmente estamos realizando algunos pilotos.<br />
+<p>Ahora tenemos los exámenes creados en formato PDF en la dirección indicada <em>./examenes/ejemplo</em>.</p>
+<p><a href="./doc/2018_formaA1_1.pdf" style = "margin:20px">2018_formaA1.pdf</a> <a href="./doc/2018_formaA2.pdf" style = "margin:20px">2018_formaA2.pdf</a> <a href="./doc/2018_formaB1.pdf" style = "margin:20px">2018_formaB1.pdf</a> <a href="./doc/2018_formaB2.pdf" style = "margin:20px">2018_formaB2.pdf</a></p>
+<p>Adicionalmente se genera un archivo <em>.rds</em>. Este archivo es utilizado para la corrección automática. <code>exams</code> tiene una función que nos permite corregir automáticamente los exámenes y generar un informe digital que eventualmente se puede enviar al alumno (<a href="http://www.r-exams.org/tutorials/exams2nops/" class="uri">http://www.r-exams.org/tutorials/exams2nops/</a>). No hemos realizado experiencias con esta función, aunque actualmente estamos realizando algunos pilotos.<br />
 Si por alguna razón deseamos imprimir una hoja de respuesta para el examen, he creado una función llamada <code>impresp.R</code> que nos genera un archivo <em>.csv</em> con la grilla de respuestas.</p>
 <pre class="r"><code>## Respuestas.
 solA &lt;- exams_metainfo(pruebaA)
