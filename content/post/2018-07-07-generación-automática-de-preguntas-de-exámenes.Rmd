@@ -10,7 +10,7 @@ tags:
   - r-exams
   - estadistica
 ---
-Uno de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes de evaluación. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes de estadística, el cual hemos comenzado a implementar progresivamente en la cátedra de Psicoestadística de la Facultad de Psicología de la Universidad Nacional de Córdoba.  
+Una de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes de evaluación. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes de estadística, el cual hemos comenzado a implementar progresivamente en la cátedra de Psicoestadística de la Facultad de Psicología de la Universidad Nacional de Córdoba.  
 
 
 
