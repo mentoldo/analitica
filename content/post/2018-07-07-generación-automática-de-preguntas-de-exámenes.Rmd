@@ -81,8 +81,9 @@ lapply(preg, exportar)
 ```
 Ahora tendremos todas las preguntas que se encuentran en *preguntas/* convertidas en archivos *.xml* listos para importar en Moodle.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/08UWCRCC004" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/08UWCRCC004" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 ## Examen escrito
 
 Veamos como generar un examen escrito.
@@ -111,7 +112,7 @@ prueba <- exams2nops(rep("preguntas/latex/R2018_0015_L.Rmd", 30),
 
 Se generará el siguiente archivo en la carpeta *./examen/ejemplosencillo/*
 
-<a href="./doc/2018_formaA1.pdf" style = "margin:20px">2018_formaA1.pdf</a>
+<a href=/doc/generacion-automatica/2018_formaA1.pdf style = "margin:20px">2018_formaA1.pdf</a>
 
 La función `exams2nops` tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades.
 Veamos ahora como generar un examen completo con 10 preguntas, eligiendo al azar entre las preguntas disponibles.
@@ -178,10 +179,10 @@ pruebaB <- exams2nops(muestraB,
 
 Ahora tenemos los exámenes creados en formato PDF en la dirección indicada *./examenes/ejemplo*.  
 
-<a href="./doc/2018_formaA1_1.pdf" style = "margin:20px">2018_formaA1.pdf</a>
-<a href="./doc/2018_formaA2.pdf" style = "margin:20px">2018_formaA2.pdf</a>
-<a href="./doc/2018_formaB1.pdf" style = "margin:20px">2018_formaB1.pdf</a>
-<a href="./doc/2018_formaB2.pdf" style = "margin:20px">2018_formaB2.pdf</a>
+<a href="/doc/generacion-automatica/2018_formaA1_1.pdf" style = "margin:20px">2018_formaA1.pdf</a>
+<a href="/doc/generacion-automatica/2018_formaA2.pdf" style = "margin:20px">2018_formaA2.pdf</a>
+<a href="/doc/generacion-automatica/2018_formaB1.pdf" style = "margin:20px">2018_formaB1.pdf</a>
+<a href="/doc/generacion-automatica/2018_formaB2.pdf" style = "margin:20px">2018_formaB2.pdf</a>
 
 
 Adicionalmente se genera un archivo *.rds*. Este archivo es utilizado para la corrección automática. `exams` tiene una función que nos permite corregir automáticamente los exámenes y generar un informe digital que eventualmente se puede enviar al alumno (http://www.r-exams.org/tutorials/exams2nops/). No hemos realizado experiencias con esta función, aunque actualmente estamos realizando algunos pilotos.  
@@ -195,6 +196,9 @@ solB <- exams_metainfo(pruebaB)
 ## impresp (Imprimir respuestas) crea un archivo .csv con las respuestas correctas.
 source("impresp.R")
 impresp(solA, solB)
-```
+```  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CNcCDmgio_Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/CNcCDmgio_Q" frameborder="0" allowfullscreen></iframe>
+</div>
+

@@ -6,7 +6,7 @@
     <title>Generación automática de preguntas de Estadística | Analítica Blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
-    <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/agate.min.css" rel="stylesheet">
   </head>
 
 <body>
@@ -75,8 +75,10 @@ exportar &lt;- function(x) {
 ## Exportamos todas las preguntas
 lapply(preg, exportar)</code></pre>
 <p>Ahora tendremos todas las preguntas que se encuentran en <em>preguntas/</em> convertidas en archivos <em>.xml</em> listos para importar en Moodle.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/08UWCRCC004" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/08UWCRCC004" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
+</div>
 </div>
 <div id="examen-escrito" class="section level2">
 <h2>Examen escrito</h2>
@@ -97,7 +99,7 @@ lapply(preg, exportar)</code></pre>
                       encoding = &quot;utf-8&quot;,
                       reglength = 8)</code></pre>
 <p>Se generará el siguiente archivo en la carpeta <em>./examen/ejemplosencillo/</em></p>
-<p><a href="./doc/2018_formaA1.pdf" style = "margin:20px">2018_formaA1.pdf</a></p>
+<p><a href=/doc/generacion-automatica/2018_formaA1.pdf style = "margin:20px">2018_formaA1.pdf</a></p>
 <p>La función <code>exams2nops</code> tiene una gran cantidad de argumentos que podremos modificar para ajustar a nuestras necesidades. Veamos ahora como generar un examen completo con 10 preguntas, eligiendo al azar entre las preguntas disponibles.</p>
 <pre class="r"><code>file.edit(&quot;hacerExamenNops.R&quot;)</code></pre>
 <p>Lo primero que haremos será listar todas las preguntas existentes. Para ello, he creado una función llamada <code>listarpreguntas</code> que hace ese trabajo. Cargamos la funcion y colocamos el listado de preguntas en una variable</p>
@@ -141,7 +143,7 @@ pruebaB &lt;- exams2nops(muestraB,
                       encoding = &quot;utf-8&quot;,
                       reglength = 8)</code></pre>
 <p>Ahora tenemos los exámenes creados en formato PDF en la dirección indicada <em>./examenes/ejemplo</em>.</p>
-<p><a href="./doc/2018_formaA1_1.pdf" style = "margin:20px">2018_formaA1.pdf</a> <a href="./doc/2018_formaA2.pdf" style = "margin:20px">2018_formaA2.pdf</a> <a href="./doc/2018_formaB1.pdf" style = "margin:20px">2018_formaB1.pdf</a> <a href="./doc/2018_formaB2.pdf" style = "margin:20px">2018_formaB2.pdf</a></p>
+<p><a href="/doc/generacion-automatica/2018_formaA1_1.pdf" style = "margin:20px">2018_formaA1.pdf</a> <a href="/doc/generacion-automatica/2018_formaA2.pdf" style = "margin:20px">2018_formaA2.pdf</a> <a href="/doc/generacion-automatica/2018_formaB1.pdf" style = "margin:20px">2018_formaB1.pdf</a> <a href="/doc/generacion-automatica/2018_formaB2.pdf" style = "margin:20px">2018_formaB2.pdf</a></p>
 <p>Adicionalmente se genera un archivo <em>.rds</em>. Este archivo es utilizado para la corrección automática. <code>exams</code> tiene una función que nos permite corregir automáticamente los exámenes y generar un informe digital que eventualmente se puede enviar al alumno (<a href="http://www.r-exams.org/tutorials/exams2nops/" class="uri">http://www.r-exams.org/tutorials/exams2nops/</a>). No hemos realizado experiencias con esta función, aunque actualmente estamos realizando algunos pilotos.<br />
 Si por alguna razón deseamos imprimir una hoja de respuesta para el examen, he creado una función llamada <code>impresp.R</code> que nos genera un archivo <em>.csv</em> con la grilla de respuestas.</p>
 <pre class="r"><code>## Respuestas.
@@ -151,12 +153,35 @@ solB &lt;- exams_metainfo(pruebaB)
 ## impresp (Imprimir respuestas) crea un archivo .csv con las respuestas correctas.
 source(&quot;impresp.R&quot;)
 impresp(solA, solB)</code></pre>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CNcCDmgio_Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/CNcCDmgio_Q" frameborder="0" allowfullscreen>
 </iframe>
+</div>
 </div>
 
 </main>
 </section>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mentoldo" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   <footer>
   <script src="//yihui.name/js/math-code.js"></script>
 <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
@@ -170,6 +195,7 @@ impresp(solA, solB)</code></pre>
 hljs.configure({languages: []});
 hljs.initHighlightingOnLoad();
 </script>
+
   
   <hr/>
   &copy; Analítica, 2018 - <a href="mailto:matias.alfonso@gmail.com">mail</a>

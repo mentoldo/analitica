@@ -43,4 +43,53 @@ Archivos sin seguimiento:
 	[31mstatic/generacion-automatica/[m
 
 no hay cambios agregados al commit (use «git add» o «git commit -a»)
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git somm[K[K[K[K[K[K[K[Kgit commit -m "Se agregaron con [Ktenidos a generaciona a[K[K[K automatica de examenes. Se  arrecg[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KSe  agrego a[Kcontenido a Acerd[Kcade"
+[tankatheme 81fc03a] Se agregaron contenidos a generacion automatica de examenes. Se agrego contenido a Acercade
+ 53 files changed, 395 insertions(+), 1098 deletions(-)
+ rewrite .Rproj.user/C283AFD6/console06/E57A40BC (98%)
+ rewrite .Rproj.user/C283AFD6/console06/INDEX001 (86%)
+ create mode 100644 public/doc/2018_formaA1.pdf
+ create mode 100644 public/doc/2018_formaA1_1.pdf
+ create mode 100644 public/doc/2018_formaA2.pdf
+ create mode 100644 public/doc/2018_formaB1.pdf
+ create mode 100644 public/doc/2018_formaB2.pdf
+ create mode 100644 public/generacion-automatica/doc/2018_formaA1.pdf
+ create mode 100644 public/generacion-automatica/doc/2018_formaA1_1.pdf
+ create mode 100644 public/generacion-automatica/doc/2018_formaA2.pdf
+ create mode 100644 public/generacion-automatica/doc/2018_formaB1.pdf
+ create mode 100644 public/generacion-automatica/doc/2018_formaB2.pdf
+ create mode 100644 public/post/doc/2018_formaA1.pdf
+ create mode 100644 public/post/doc/2018_formaA1_1.pdf
+ create mode 100644 public/post/doc/2018_formaA2.pdf
+ create mode 100644 public/post/doc/2018_formaB1.pdf
+ create mode 100644 public/post/doc/2018_formaB2.pdf
+ create mode 100644 public/post/generacion-automatica/doc/2018_formaA1.pdf
+ create mode 100644 public/post/generacion-automatica/doc/2018_formaA1_1.pdf
+ create mode 100644 public/post/generacion-automatica/doc/2018_formaA2.pdf
+ create mode 100644 public/post/generacion-automatica/doc/2018_formaB1.pdf
+ create mode 100644 public/post/generacion-automatica/doc/2018_formaB2.pdf
+ create mode 100644 public/post/generacion-automatica/index.html
+ create mode 100644 static/generacion-automatica/doc/2018_formaA1.pdf
+ create mode 100644 static/generacion-automatica/doc/2018_formaA1_1.pdf
+ create mode 100644 static/generacion-automatica/doc/2018_formaA2.pdf
+ create mode 100644 static/generacion-automatica/doc/2018_formaB1.pdf
+ create mode 100644 static/generacion-automatica/doc/2018_formaB2.pdf
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://gitlab.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@gitlab.com': 
+Counting objects: 59, done.
+Delta compression using up to 6 threads.
+Compressing objects:   1% (1/53)   Compressing objects:   3% (2/53)   Compressing objects:   5% (3/53)   Compressing objects:   7% (4/53)   Compressing objects:   9% (5/53)   Compressing objects:  11% (6/53)   Compressing objects:  13% (7/53)   Compressing objects:  15% (8/53)   Compressing objects:  16% (9/53)   Compressing objects:  18% (10/53)   Compressing objects:  20% (11/53)   Compressing objects:  22% (12/53)   Compressing objects:  24% (13/53)   Compressing objects:  26% (14/53)   Compressing objects:  28% (15/53)   Compressing objects:  30% (16/53)   Compressing objects:  32% (17/53)   Compressing objects:  33% (18/53)   Compressing objects:  35% (19/53)   Compressing objects:  37% (20/53)   Compressing objects:  39% (21/53)   Compressing objects:  41% (22/53)   Compressing objects:  43% (23/53)   Compressing objects:  45% (24/53)   Compressing objects:  47% (25/53)   Compressing objects:  49% (26/53)   Compressing objects:  50% (27/53)   Compressing objects:  52% (28/53)   Compressing objects:  54% (29/53)   Compressing objects:  56% (30/53)   Compressing objects:  58% (31/53)   Compressing objects:  60% (32/53)   Compressing objects:  62% (33/53)   Compressing objects:  64% (34/53)   Compressing objects:  66% (35/53)   Compressing objects:  67% (36/53)   Compressing objects:  69% (37/53)   Compressing objects:  71% (38/53)   Compressing objects:  73% (39/53)   Compressing objects:  75% (40/53)   Compressing objects:  77% (41/53)   Compressing objects:  79% (42/53)   Compressing objects:  81% (43/53)   Compressing objects:  83% (44/53)   Compressing objects:  84% (45/53)   Compressing objects:  86% (46/53)   Compressing objects:  88% (47/53)   Compressing objects:  90% (48/53)   Compressing objects:  92% (49/53)   Compressing objects:  94% (50/53)   Compressing objects:  96% (51/53)   Compressing objects:  98% (52/53)   Compressing objects: 100% (53/53)   Compressing objects: 100% (53/53), done.
+Writing objects:   1% (1/59)   Writing objects:   3% (2/59)   Writing objects:   5% (3/59)   Writing objects:   6% (4/59)   Writing objects:   8% (5/59)   Writing objects:  10% (6/59)   Writing objects:  11% (7/59)   Writing objects:  13% (8/59)   Writing objects:  15% (9/59)   Writing objects:  16% (10/59)   Writing objects:  18% (11/59)   Writing objects:  20% (12/59)   Writing objects:  22% (13/59)   Writing objects:  23% (14/59)   Writing objects:  25% (15/59)   Writing objects:  27% (16/59)   Writing objects:  28% (17/59)   Writing objects:  30% (18/59)   Writing objects:  32% (19/59)   Writing objects:  33% (20/59)   Writing objects:  37% (22/59)   Writing objects:  38% (23/59)   Writing objects:  40% (24/59)   Writing objects:  42% (25/59)   Writing objects:  44% (26/59)   Writing objects:  45% (27/59)   Writing objects:  47% (28/59)   Writing objects:  49% (29/59)   Writing objects:  50% (30/59)   Writing objects:  52% (31/59)   Writing objects:  54% (32/59)   Writing objects:  55% (33/59)   Writing objects:  57% (34/59)   Writing objects:  59% (35/59)   Writing objects:  61% (36/59)   Writing objects:  64% (38/59)   Writing objects:  66% (39/59)   Writing objects:  67% (40/59)   Writing objects:  69% (41/59)   Writing objects:  71% (42/59)   Writing objects:  72% (43/59)   Writing objects:  74% (44/59)   Writing objects:  76% (45/59)   Writing objects:  77% (46/59)   Writing objects:  79% (47/59)   Writing objects:  81% (48/59)   Writing objects:  83% (49/59)   Writing objects:  84% (50/59)   Writing objects:  86% (51/59)   Writing objects:  88% (52/59)   Writing objects:  89% (53/59)   Writing objects:  91% (54/59)   Writing objects:  93% (55/59)   Writing objects:  94% (56/59)   Writing objects:  96% (57/59)   Writing objects:  98% (58/59)   Writing objects: 100% (59/59)   Writing objects: 100% (59/59), 280.27 KiB | 0 bytes/s, done.
+Total 59 (delta 31), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for tankatheme, visit:[K
+remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
+remote: 
+To https://gitlab.com/mentoldo/analitica.git
+   e300858..81fc03a  tankatheme -> tankatheme
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
