@@ -195,3 +195,18 @@ Cambios no preparados para el commit:
 
 no hay cambios agregados al commit (use «git add» o «git commit -a»)
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "se modific[Kco e[Kgitignore"
+[tankatheme 7ea2320] se modifico gitignore
+ 2 files changed, 28 insertions(+), 1 deletion(-)
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
+En la rama tankatheme
+Su rama está delante de «origin/tankatheme» para 2 commits.
+  (use "git push" to publish your local commits)
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ ñ[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuscommit -m "se modifico gitignore"add -A[K
