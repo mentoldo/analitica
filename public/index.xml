@@ -145,18 +145,5 @@ impresp(solA, solB)&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Analítica&lt;/strong&gt; es un espacio de difusión de información relacionada a Ciencia de Datos y Estadística.
-Creemos en el conocimiento basado en la evidencia y en la libertad de información.
-Consideramos el acceso universal al conocimiento y a la educación como herramienta fundamental para la resolución de problemas sociales.
-Compartiremos por este medio artículos producto de análisis de datos, herramientas y soluciones informáticas y estadísticas.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
