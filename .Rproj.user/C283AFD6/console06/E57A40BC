@@ -1,156 +1,63 @@
-[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add[K[K[Kstatus
-En la rama tankatheme
-Su rama está actualizada con «origin/tankatheme».
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .RData[m
-	[31mmodificado:    .Rhistory[m
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC.env[m
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/INDEX001[m
-	[31mmodificado:    .Rproj.user/C283AFD6/pcs/source-pane.pper[m
-	[31mmodificado:    .Rproj.user/C283AFD6/pcs/windowlayoutstate.pper[m
-	[31mmodificado:    .Rproj.user/C283AFD6/pcs/workbench-pane.pper[m
-	[31mmodificado:    .Rproj.user/shared/notebooks/paths[m
-	[31mmodificado:    "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.Rmd"[m
-	[31mmodificado:    "content/post/2018-07-07-generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes.html"[m
-	[31mmodificado:    layouts/about/about.html[m
-	[31mmodificado:    public/about/index.html[m
-	[31mmodificado:    public/categories/r/index.html[m
-	[31mmodificado:    public/categories/r/index.xml[m
-	[31mmodificado:    public/index.html[m
-	[31mmodificado:    public/index.xml[m
-	[31mmodificado:    "public/post/generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes/index.html"[m
-	[31mmodificado:    public/post/index.html[m
-	[31mmodificado:    public/post/index.xml[m
-	[31mmodificado:    public/sitemap.xml[m
-	[31mmodificado:    public/tags/e-learning/index.html[m
-	[31mmodificado:    public/tags/e-learning/index.xml[m
-	[31mmodificado:    public/tags/estadistica/index.html[m
-	[31mmodificado:    public/tags/estadistica/index.xml[m
-	[31mmodificado:    public/tags/r-exams/index.html[m
-	[31mmodificado:    public/tags/r-exams/index.xml[m
-
-Archivos sin seguimiento:
-  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
-
-	[31mpublic/doc/[m
-	[31mpublic/generacion-automatica/[m
-	[31mpublic/post/doc/[m
-	[31mpublic/post/generacion-automatica/[m
-	[31mstatic/generacion-automatica/[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git somm[K[K[K[K[K[K[K[Kgit commit -m "Se agregaron con [Ktenidos a generaciona a[K[K[K automatica de examenes. Se  arrecg[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KSe  agrego a[Kcontenido a Acerd[Kcade"
-[tankatheme 81fc03a] Se agregaron contenidos a generacion automatica de examenes. Se agrego contenido a Acercade
- 53 files changed, 395 insertions(+), 1098 deletions(-)
- rewrite .Rproj.user/C283AFD6/console06/E57A40BC (98%)
- rewrite .Rproj.user/C283AFD6/console06/INDEX001 (86%)
- create mode 100644 public/doc/2018_formaA1.pdf
- create mode 100644 public/doc/2018_formaA1_1.pdf
- create mode 100644 public/doc/2018_formaA2.pdf
- create mode 100644 public/doc/2018_formaB1.pdf
- create mode 100644 public/doc/2018_formaB2.pdf
- create mode 100644 public/generacion-automatica/doc/2018_formaA1.pdf
- create mode 100644 public/generacion-automatica/doc/2018_formaA1_1.pdf
- create mode 100644 public/generacion-automatica/doc/2018_formaA2.pdf
- create mode 100644 public/generacion-automatica/doc/2018_formaB1.pdf
- create mode 100644 public/generacion-automatica/doc/2018_formaB2.pdf
- create mode 100644 public/post/doc/2018_formaA1.pdf
- create mode 100644 public/post/doc/2018_formaA1_1.pdf
- create mode 100644 public/post/doc/2018_formaA2.pdf
- create mode 100644 public/post/doc/2018_formaB1.pdf
- create mode 100644 public/post/doc/2018_formaB2.pdf
- create mode 100644 public/post/generacion-automatica/doc/2018_formaA1.pdf
- create mode 100644 public/post/generacion-automatica/doc/2018_formaA1_1.pdf
- create mode 100644 public/post/generacion-automatica/doc/2018_formaA2.pdf
- create mode 100644 public/post/generacion-automatica/doc/2018_formaB1.pdf
- create mode 100644 public/post/generacion-automatica/doc/2018_formaB2.pdf
- create mode 100644 public/post/generacion-automatica/index.html
- create mode 100644 static/generacion-automatica/doc/2018_formaA1.pdf
- create mode 100644 static/generacion-automatica/doc/2018_formaA1_1.pdf
- create mode 100644 static/generacion-automatica/doc/2018_formaA2.pdf
- create mode 100644 static/generacion-automatica/doc/2018_formaB1.pdf
- create mode 100644 static/generacion-automatica/doc/2018_formaB2.pdf
+[tankatheme 1b53431] Se agrego info en About
+ 13 files changed, 55 insertions(+), 32 deletions(-)
+ rewrite .Rproj.user/C283AFD6/console06/INDEX001 (87%)
+ create mode 100644 public/images/about/eduardobologna.jpg
+ create mode 100644 static/images/about/eduardobologna.jpg
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ g[Kgit c[K[K push
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://gitlab.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@gitlab.com': 
+Counting objects: 27, done.
+Delta compression using up to 6 threads.
+Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
+Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  59% (16/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 62.46 KiB | 0 bytes/s, done.
+Total 27 (delta 10), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for tankatheme, visit:[K
+remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
+remote: 
+To https://gitlab.com/mentoldo/analitica.git
+   11fb397..1b53431  tankatheme -> tankatheme
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git pushcommit[2Ppush[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git remos[Kte add publico https://github.com/mentoldo/analitica.git
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push -u or[K[Kpublico master
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://github.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@github.com': 
+Counting objects: 253, done.
+Delta compression using up to 6 threads.
+Compressing objects:   0% (1/213)   Compressing objects:   1% (3/213)   Compressing objects:   2% (5/213)   Compressing objects:   3% (7/213)   Compressing objects:   4% (9/213)   Compressing objects:   5% (11/213)   Compressing objects:   6% (13/213)   Compressing objects:   7% (15/213)   Compressing objects:   8% (18/213)   Compressing objects:   9% (20/213)   Compressing objects:  10% (22/213)   Compressing objects:  11% (24/213)   Compressing objects:  12% (26/213)   Compressing objects:  13% (28/213)   Compressing objects:  14% (30/213)   Compressing objects:  15% (32/213)   Compressing objects:  16% (35/213)   Compressing objects:  17% (37/213)   Compressing objects:  18% (39/213)   Compressing objects:  19% (41/213)   Compressing objects:  20% (43/213)   Compressing objects:  21% (45/213)   Compressing objects:  22% (47/213)   Compressing objects:  23% (49/213)   Compressing objects:  24% (52/213)   Compressing objects:  25% (54/213)   Compressing objects:  26% (56/213)   Compressing objects:  27% (58/213)   Compressing objects:  28% (60/213)   Compressing objects:  29% (62/213)   Compressing objects:  30% (64/213)   Compressing objects:  31% (67/213)   Compressing objects:  32% (69/213)   Compressing objects:  33% (71/213)   Compressing objects:  34% (73/213)   Compressing objects:  35% (75/213)   Compressing objects:  36% (77/213)   Compressing objects:  37% (79/213)   Compressing objects:  38% (81/213)   Compressing objects:  39% (84/213)   Compressing objects:  40% (86/213)   Compressing objects:  41% (88/213)   Compressing objects:  42% (90/213)   Compressing objects:  43% (92/213)   Compressing objects:  44% (94/213)   Compressing objects:  45% (96/213)   Compressing objects:  46% (98/213)   Compressing objects:  47% (101/213)   Compressing objects:  48% (103/213)   Compressing objects:  49% (105/213)   Compressing objects:  50% (107/213)   Compressing objects:  51% (109/213)   Compressing objects:  52% (111/213)   Compressing objects:  53% (113/213)   Compressing objects:  54% (116/213)   Compressing objects:  55% (118/213)   Compressing objects:  56% (120/213)   Compressing objects:  57% (122/213)   Compressing objects:  58% (124/213)   Compressing objects:  59% (126/213)   Compressing objects:  60% (128/213)   Compressing objects:  61% (130/213)   Compressing objects:  62% (133/213)   Compressing objects:  63% (135/213)   Compressing objects:  64% (137/213)   Compressing objects:  65% (139/213)   Compressing objects:  66% (141/213)   Compressing objects:  67% (143/213)   Compressing objects:  68% (145/213)   Compressing objects:  69% (147/213)   Compressing objects:  70% (150/213)   Compressing objects:  71% (152/213)   Compressing objects:  72% (154/213)   Compressing objects:  73% (156/213)   Compressing objects:  74% (158/213)   Compressing objects:  75% (160/213)   Compressing objects:  76% (162/213)   Compressing objects:  77% (165/213)   Compressing objects:  78% (167/213)   Compressing objects:  79% (169/213)   Compressing objects:  80% (171/213)   Compressing objects:  81% (173/213)   Compressing objects:  82% (175/213)   Compressing objects:  83% (177/213)   Compressing objects:  84% (179/213)   Compressing objects:  85% (182/213)   Compressing objects:  86% (184/213)   Compressing objects:  87% (186/213)   Compressing objects:  88% (188/213)   Compressing objects:  89% (190/213)   Compressing objects:  90% (192/213)   Compressing objects:  91% (194/213)   Compressing objects:  92% (196/213)   Compressing objects:  93% (199/213)   Compressing objects:  94% (201/213)   Compressing objects:  95% (203/213)   Compressing objects:  96% (205/213)   Compressing objects:  97% (207/213)   Compressing objects:  98% (209/213)   Compressing objects:  99% (211/213)   Compressing objects: 100% (213/213)   Compressing objects: 100% (213/213), done.
+Writing objects:   0% (1/253)   Writing objects:   1% (3/253)   Writing objects:   2% (6/253)   Writing objects:   3% (8/253)   Writing objects:   4% (11/253)   Writing objects:   5% (13/253)   Writing objects:   6% (16/253)   Writing objects:   7% (18/253)   Writing objects:   8% (21/253)   Writing objects:   9% (23/253)   Writing objects:  10% (26/253)   Writing objects:  11% (28/253)   Writing objects:  12% (31/253)   Writing objects:  13% (33/253)   Writing objects:  14% (36/253)   Writing objects:  15% (38/253)   Writing objects:  16% (41/253)   Writing objects:  17% (44/253)   Writing objects:  18% (47/253)   Writing objects:  19% (49/253)   Writing objects:  20% (51/253)   Writing objects:  21% (55/253)   Writing objects:  22% (56/253)   Writing objects:  23% (59/253)   Writing objects:  24% (61/253)   Writing objects:  25% (64/253)   Writing objects:  26% (66/253)   Writing objects:  27% (69/253)   Writing objects:  28% (71/253)   Writing objects:  30% (77/253)   Writing objects:  31% (79/253)   Writing objects:  32% (81/253)   Writing objects:  33% (84/253)   Writing objects:  35% (89/253)   Writing objects:  36% (92/253)   Writing objects:  37% (94/253)   Writing objects:  38% (97/253)   Writing objects:  39% (99/253)   Writing objects:  40% (102/253)   Writing objects:  41% (104/253)   Writing objects:  42% (107/253)   Writing objects:  43% (110/253)   Writing objects:  44% (112/253)   Writing objects:  45% (115/253)   Writing objects:  46% (117/253)   Writing objects:  47% (119/253)   Writing objects:  48% (122/253)   Writing objects:  49% (124/253)   Writing objects:  50% (127/253)   Writing objects:  51% (130/253)   Writing objects:  52% (132/253)   Writing objects:  53% (135/253)   Writing objects:  54% (137/253)   Writing objects:  55% (140/253)   Writing objects:  56% (142/253)   Writing objects:  57% (145/253)   Writing objects:  58% (147/253)   Writing objects:  59% (150/253)   Writing objects:  60% (152/253)   Writing objects:  61% (155/253)   Writing objects:  62% (157/253)   Writing objects:  63% (160/253)   Writing objects:  64% (162/253)   Writing objects:  65% (165/253)   Writing objects:  66% (167/253)   Writing objects:  67% (170/253)   Writing objects:  68% (173/253)   Writing objects:  69% (175/253)   Writing objects:  70% (178/253)   Writing objects:  71% (180/253)   Writing objects:  72% (183/253)   Writing objects:  73% (185/253)   Writing objects:  74% (188/253)   Writing objects:  75% (190/253)   Writing objects:  76% (193/253)   Writing objects:  77% (195/253)   Writing objects:  78% (198/253)   Writing objects:  79% (200/253)   Writing objects:  81% (206/253)   Writing objects:  83% (210/253)   Writing objects:  84% (213/253)   Writing objects:  85% (216/253)   Writing objects:  86% (218/253)   Writing objects:  87% (221/253)   Writing objects:  88% (223/253)   Writing objects:  89% (226/253)   Writing objects:  90% (228/253)   Writing objects:  91% (231/253)   Writing objects:  92% (233/253)   Writing objects:  93% (236/253)   Writing objects:  94% (238/253)   Writing objects:  95% (241/253)   Writing objects:  96% (243/253)   Writing objects:  97% (246/253)   Writing objects:  98% (248/253)   Writing objects:  99% (251/253)   Writing objects: 100% (253/253)   Writing objects: 100% (253/253), 133.66 KiB | 0 bytes/s, done.
+Total 253 (delta 84), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/84)   [Kremote: Resolving deltas:   3% (3/84)   [Kremote: Resolving deltas:   4% (4/84)   [Kremote: Resolving deltas:   5% (5/84)   [Kremote: Resolving deltas:   8% (7/84)   [Kremote: Resolving deltas:   9% (8/84)   [Kremote: Resolving deltas:  11% (10/84)   [Kremote: Resolving deltas:  13% (11/84)   [Kremote: Resolving deltas:  14% (12/84)   [Kremote: Resolving deltas:  16% (14/84)   [Kremote: Resolving deltas:  19% (16/84)   [Kremote: Resolving deltas:  20% (17/84)   [Kremote: Resolving deltas:  21% (18/84)   [Kremote: Resolving deltas:  22% (19/84)   [Kremote: Resolving deltas:  25% (21/84)   [Kremote: Resolving deltas:  26% (22/84)   [Kremote: Resolving deltas:  39% (33/84)   [Kremote: Resolving deltas:  40% (34/84)   [Kremote: Resolving deltas:  41% (35/84)   [Kremote: Resolving deltas:  45% (38/84)   [Kremote: Resolving deltas:  59% (50/84)   [Kremote: Resolving deltas:  71% (60/84)   [Kremote: Resolving deltas:  72% (61/84)   [Kremote: Resolving deltas:  73% (62/84)   [Kremote: Resolving deltas:  75% (63/84)   [Kremote: Resolving deltas:  76% (64/84)   [Kremote: Resolving deltas:  95% (80/84)   [Kremote: Resolving deltas: 100% (84/84)   [Kremote: Resolving deltas: 100% (84/84), done.[K
+To https://github.com/mentoldo/analitica.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from publico.
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
 error: cannot run rpostback-askpass: No existe el archivo o el directorio
 Username for 'https://gitlab.com': mentoldo
 error: cannot run rpostback-askpass: No existe el archivo o el directorio
 Password for 'https://mentoldo@gitlab.com': 
-Counting objects: 59, done.
-Delta compression using up to 6 threads.
-Compressing objects:   1% (1/53)   Compressing objects:   3% (2/53)   Compressing objects:   5% (3/53)   Compressing objects:   7% (4/53)   Compressing objects:   9% (5/53)   Compressing objects:  11% (6/53)   Compressing objects:  13% (7/53)   Compressing objects:  15% (8/53)   Compressing objects:  16% (9/53)   Compressing objects:  18% (10/53)   Compressing objects:  20% (11/53)   Compressing objects:  22% (12/53)   Compressing objects:  24% (13/53)   Compressing objects:  26% (14/53)   Compressing objects:  28% (15/53)   Compressing objects:  30% (16/53)   Compressing objects:  32% (17/53)   Compressing objects:  33% (18/53)   Compressing objects:  35% (19/53)   Compressing objects:  37% (20/53)   Compressing objects:  39% (21/53)   Compressing objects:  41% (22/53)   Compressing objects:  43% (23/53)   Compressing objects:  45% (24/53)   Compressing objects:  47% (25/53)   Compressing objects:  49% (26/53)   Compressing objects:  50% (27/53)   Compressing objects:  52% (28/53)   Compressing objects:  54% (29/53)   Compressing objects:  56% (30/53)   Compressing objects:  58% (31/53)   Compressing objects:  60% (32/53)   Compressing objects:  62% (33/53)   Compressing objects:  64% (34/53)   Compressing objects:  66% (35/53)   Compressing objects:  67% (36/53)   Compressing objects:  69% (37/53)   Compressing objects:  71% (38/53)   Compressing objects:  73% (39/53)   Compressing objects:  75% (40/53)   Compressing objects:  77% (41/53)   Compressing objects:  79% (42/53)   Compressing objects:  81% (43/53)   Compressing objects:  83% (44/53)   Compressing objects:  84% (45/53)   Compressing objects:  86% (46/53)   Compressing objects:  88% (47/53)   Compressing objects:  90% (48/53)   Compressing objects:  92% (49/53)   Compressing objects:  94% (50/53)   Compressing objects:  96% (51/53)   Compressing objects:  98% (52/53)   Compressing objects: 100% (53/53)   Compressing objects: 100% (53/53), done.
-Writing objects:   1% (1/59)   Writing objects:   3% (2/59)   Writing objects:   5% (3/59)   Writing objects:   6% (4/59)   Writing objects:   8% (5/59)   Writing objects:  10% (6/59)   Writing objects:  11% (7/59)   Writing objects:  13% (8/59)   Writing objects:  15% (9/59)   Writing objects:  16% (10/59)   Writing objects:  18% (11/59)   Writing objects:  20% (12/59)   Writing objects:  22% (13/59)   Writing objects:  23% (14/59)   Writing objects:  25% (15/59)   Writing objects:  27% (16/59)   Writing objects:  28% (17/59)   Writing objects:  30% (18/59)   Writing objects:  32% (19/59)   Writing objects:  33% (20/59)   Writing objects:  37% (22/59)   Writing objects:  38% (23/59)   Writing objects:  40% (24/59)   Writing objects:  42% (25/59)   Writing objects:  44% (26/59)   Writing objects:  45% (27/59)   Writing objects:  47% (28/59)   Writing objects:  49% (29/59)   Writing objects:  50% (30/59)   Writing objects:  52% (31/59)   Writing objects:  54% (32/59)   Writing objects:  55% (33/59)   Writing objects:  57% (34/59)   Writing objects:  59% (35/59)   Writing objects:  61% (36/59)   Writing objects:  64% (38/59)   Writing objects:  66% (39/59)   Writing objects:  67% (40/59)   Writing objects:  69% (41/59)   Writing objects:  71% (42/59)   Writing objects:  72% (43/59)   Writing objects:  74% (44/59)   Writing objects:  76% (45/59)   Writing objects:  77% (46/59)   Writing objects:  79% (47/59)   Writing objects:  81% (48/59)   Writing objects:  83% (49/59)   Writing objects:  84% (50/59)   Writing objects:  86% (51/59)   Writing objects:  88% (52/59)   Writing objects:  89% (53/59)   Writing objects:  91% (54/59)   Writing objects:  93% (55/59)   Writing objects:  94% (56/59)   Writing objects:  96% (57/59)   Writing objects:  98% (58/59)   Writing objects: 100% (59/59)   Writing objects: 100% (59/59), 280.27 KiB | 0 bytes/s, done.
-Total 59 (delta 31), reused 0 (delta 0)
-remote: 
-remote: To create a merge request for tankatheme, visit:[K
-remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
-remote: 
-To https://gitlab.com/mentoldo/analitica.git
-   e300858..81fc03a  tankatheme -> tankatheme
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commi[K[K[K[K[K[K[K[K[Kgit commit -m "Se arregrl[K[Klaron [K[K[K[K[K[K[K[K[K[K[Karreglo [K[Karon los vie[K[K[K[K f[Kvie[Kdd[Keos de youtubve[K[Kv[Ke"
-[tankatheme 9f17716] Se arreglaron los videos de youtube
- 69 files changed, 404 insertions(+), 365 deletions(-)
- rewrite .RData (99%)
- rewrite .Rproj.user/C283AFD6/console06/INDEX001 (86%)
- rename {static/generacion-automatica/doc => public/doc/generacion-automatica}/2018_formaA1.pdf (100%)
- rename {static/generacion-automatica/doc => public/doc/generacion-automatica}/2018_formaA1_1.pdf (100%)
- rename {static/generacion-automatica/doc => public/doc/generacion-automatica}/2018_formaA2.pdf (100%)
- rename {static/generacion-automatica/doc => public/doc/generacion-automatica}/2018_formaB1.pdf (100%)
- rename {static/generacion-automatica/doc => public/doc/generacion-automatica}/2018_formaB2.pdf (100%)
- delete mode 100644 public/post/doc/2018_formaA1.pdf
- delete mode 100644 public/post/doc/2018_formaA1_1.pdf
- delete mode 100644 public/post/doc/2018_formaA2.pdf
- delete mode 100644 public/post/doc/2018_formaB1.pdf
- delete mode 100644 public/post/doc/2018_formaB2.pdf
- delete mode 100644 "public/post/generaci\303\263n-autom\303\241tica-de-preguntas-de-ex\303\241menes/index.html"
- delete mode 100644 public/tags/e-learning-r-exams-estadistica/index.html
- delete mode 100644 public/tags/e-learning-r-exams-estadistica/index.xml
- rename {public/post/generacion-automatica/doc => static/doc/generacion-automatica}/2018_formaA1.pdf (100%)
- rename {public/post/generacion-automatica/doc => static/doc/generacion-automatica}/2018_formaA1_1.pdf (100%)
- rename {public/post/generacion-automatica/doc => static/doc/generacion-automatica}/2018_formaA2.pdf (100%)
- rename {public/post/generacion-automatica/doc => static/doc/generacion-automatica}/2018_formaB1.pdf (100%)
- rename {public/post/generacion-automatica/doc => static/doc/generacion-automatica}/2018_formaB2.pdf (100%)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ ti [K[K[Kgit push
+Everything up-to-date
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git remob[Kte
+origin
+publico
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git remote[2Ppush -u publico master
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://github.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@github.com': 
+Branch master set up to track remote branch master from publico.
+Everything up-to-date
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push -u publico masterremote[Kpush -u publico master[K[K[K[K[K[K[K[K[K[K[K[K[K[Korigin master
 error: cannot run rpostback-askpass: No existe el archivo o el directorio
 Username for 'https://gitlab.com': mentoldo
 error: cannot run rpostback-askpass: No existe el archivo o el directorio
 Password for 'https://mentoldo@gitlab.com': 
-Counting objects: 95, done.
-Delta compression using up to 6 threads.
-Compressing objects:   1% (1/84)   Compressing objects:   2% (2/84)   Compressing objects:   3% (3/84)   Compressing objects:   4% (4/84)   Compressing objects:   5% (5/84)   Compressing objects:   7% (6/84)   Compressing objects:   8% (7/84)   Compressing objects:   9% (8/84)   Compressing objects:  10% (9/84)   Compressing objects:  11% (10/84)   Compressing objects:  13% (11/84)   Compressing objects:  14% (12/84)   Compressing objects:  15% (13/84)   Compressing objects:  16% (14/84)   Compressing objects:  17% (15/84)   Compressing objects:  19% (16/84)   Compressing objects:  20% (17/84)   Compressing objects:  21% (18/84)   Compressing objects:  22% (19/84)   Compressing objects:  23% (20/84)   Compressing objects:  25% (21/84)   Compressing objects:  26% (22/84)   Compressing objects:  27% (23/84)   Compressing objects:  28% (24/84)   Compressing objects:  29% (25/84)   Compressing objects:  30% (26/84)   Compressing objects:  32% (27/84)   Compressing objects:  33% (28/84)   Compressing objects:  34% (29/84)   Compressing objects:  35% (30/84)   Compressing objects:  36% (31/84)   Compressing objects:  38% (32/84)   Compressing objects:  39% (33/84)   Compressing objects:  40% (34/84)   Compressing objects:  41% (35/84)   Compressing objects:  42% (36/84)   Compressing objects:  44% (37/84)   Compressing objects:  45% (38/84)   Compressing objects:  46% (39/84)   Compressing objects:  47% (40/84)   Compressing objects:  48% (41/84)   Compressing objects:  50% (42/84)   Compressing objects:  51% (43/84)   Compressing objects:  52% (44/84)   Compressing objects:  53% (45/84)   Compressing objects:  54% (46/84)   Compressing objects:  55% (47/84)   Compressing objects:  57% (48/84)   Compressing objects:  58% (49/84)   Compressing objects:  59% (50/84)   Compressing objects:  60% (51/84)   Compressing objects:  61% (52/84)   Compressing objects:  63% (53/84)   Compressing objects:  64% (54/84)   Compressing objects:  65% (55/84)   Compressing objects:  66% (56/84)   Compressing objects:  67% (57/84)   Compressing objects:  69% (58/84)   Compressing objects:  70% (59/84)   Compressing objects:  71% (60/84)   Compressing objects:  72% (61/84)   Compressing objects:  73% (62/84)   Compressing objects:  75% (63/84)   Compressing objects:  76% (64/84)   Compressing objects:  77% (65/84)   Compressing objects:  78% (66/84)   Compressing objects:  79% (67/84)   Compressing objects:  80% (68/84)   Compressing objects:  82% (69/84)   Compressing objects:  83% (70/84)   Compressing objects:  84% (71/84)   Compressing objects:  85% (72/84)   Compressing objects:  86% (73/84)   Compressing objects:  88% (74/84)   Compressing objects:  89% (75/84)   Compressing objects:  90% (76/84)   Compressing objects:  91% (77/84)   Compressing objects:  92% (78/84)   Compressing objects:  94% (79/84)   Compressing objects:  95% (80/84)   Compressing objects:  96% (81/84)   Compressing objects:  97% (82/84)   Compressing objects:  98% (83/84)   Compressing objects: 100% (84/84)   Compressing objects: 100% (84/84), done.
-Writing objects:   1% (1/95)   Writing objects:   2% (2/95)   Writing objects:   3% (3/95)   Writing objects:   4% (4/95)   Writing objects:   5% (5/95)   Writing objects:   6% (6/95)   Writing objects:   7% (7/95)   Writing objects:   8% (8/95)   Writing objects:   9% (9/95)   Writing objects:  10% (10/95)   Writing objects:  11% (11/95)   Writing objects:  12% (12/95)   Writing objects:  13% (13/95)   Writing objects:  14% (14/95)   Writing objects:  15% (15/95)   Writing objects:  16% (16/95)   Writing objects:  17% (17/95)   Writing objects:  18% (18/95)   Writing objects:  20% (19/95)   Writing objects:  21% (20/95)   Writing objects:  22% (21/95)   Writing objects:  23% (22/95)   Writing objects:  24% (23/95)   Writing objects:  25% (24/95)   Writing objects:  26% (25/95)   Writing objects:  27% (26/95)   Writing objects:  29% (28/95)   Writing objects:  30% (29/95)   Writing objects:  31% (30/95)   Writing objects:  32% (31/95)   Writing objects:  33% (32/95)   Writing objects:  34% (33/95)   Writing objects:  35% (34/95)   Writing objects:  36% (35/95)   Writing objects:  38% (37/95)   Writing objects:  40% (38/95)   Writing objects:  41% (39/95)   Writing objects:  42% (40/95)   Writing objects:  43% (41/95)   Writing objects:  44% (42/95)   Writing objects:  45% (43/95)   Writing objects:  46% (44/95)   Writing objects:  47% (45/95)   Writing objects:  48% (46/95)   Writing objects:  49% (47/95)   Writing objects:  50% (48/95)   Writing objects:  51% (49/95)   Writing objects:  52% (50/95)   Writing objects:  53% (51/95)   Writing objects:  54% (52/95)   Writing objects:  55% (53/95)   Writing objects:  56% (54/95)   Writing objects:  57% (55/95)   Writing objects:  60% (57/95)   Writing objects:  61% (58/95)   Writing objects:  62% (59/95)   Writing objects:  63% (60/95)   Writing objects:  64% (61/95)   Writing objects:  65% (62/95)   Writing objects:  66% (63/95)   Writing objects:  67% (64/95)   Writing objects:  68% (65/95)   Writing objects:  69% (66/95)   Writing objects:  70% (67/95)   Writing objects:  71% (68/95)   Writing objects:  72% (69/95)   Writing objects:  73% (70/95)   Writing objects:  76% (73/95)   Writing objects:  77% (74/95)   Writing objects:  78% (75/95)   Writing objects:  80% (76/95)   Writing objects:  81% (77/95)   Writing objects:  82% (78/95)   Writing objects:  83% (79/95)   Writing objects:  84% (80/95)   Writing objects:  85% (81/95)   Writing objects:  86% (82/95)   Writing objects:  87% (83/95)   Writing objects:  88% (84/95)   Writing objects:  89% (85/95)   Writing objects:  90% (86/95)   Writing objects:  91% (87/95)   Writing objects:  92% (88/95)   Writing objects:  93% (89/95)   Writing objects:  94% (90/95)   Writing objects:  95% (91/95)   Writing objects:  96% (92/95)   Writing objects:  97% (93/95)   Writing objects:  98% (94/95)   Writing objects: 100% (95/95)   Writing objects: 100% (95/95), 20.68 KiB | 0 bytes/s, done.
-Total 95 (delta 43), reused 0 (delta 0)
-remote: 
-remote: To create a merge request for tankatheme, visit:[K
-remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
-remote: 
+Total 0 (delta 0), reused 0 (delta 0)
 To https://gitlab.com/mentoldo/analitica.git
-   81fc03a..9f17716  tankatheme -> tankatheme
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ g[Kgit commit -m " [KSe modific aron l[Klas d[Ksemblanzar y se corrigire[K[Keron algunos links"
-[tankatheme 11fb397] Se modificaron las semblanzar y se corrigieron algunos links
- 14 files changed, 57 insertions(+), 19 deletions(-)
- rewrite .Rproj.user/C283AFD6/console06/INDEX001 (61%)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git puhs[K[Ksh
-a1b  error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com':  mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Counting objects: 33, done.
-Delta compression using up to 6 threads.
-Compressing objects:   3% (1/30)   Compressing objects:   6% (2/30)   Compressing objects:  10% (3/30)   Compressing objects:  13% (4/30)   Compressing objects:  16% (5/30)   Compressing objects:  20% (6/30)   Compressing objects:  23% (7/30)   Compressing objects:  26% (8/30)   Compressing objects:  30% (9/30)   Compressing objects:  33% (10/30)   Compressing objects:  36% (11/30)   Compressing objects:  40% (12/30)   Compressing objects:  43% (13/30)   Compressing objects:  46% (14/30)   Compressing objects:  50% (15/30)   Compressing objects:  53% (16/30)   Compressing objects:  56% (17/30)   Compressing objects:  60% (18/30)   Compressing objects:  63% (19/30)   Compressing objects:  66% (20/30)   Compressing objects:  70% (21/30)   Compressing objects:  73% (22/30)   Compressing objects:  76% (23/30)   Compressing objects:  80% (24/30)   Compressing objects:  83% (25/30)   Compressing objects:  86% (26/30)   Compressing objects:  90% (27/30)   Compressing objects:  93% (28/30)   Compressing objects:  96% (29/30)   Compressing objects: 100% (30/30)   Compressing objects: 100% (30/30), done.
-Writing objects:   3% (1/33)   Writing objects:   6% (2/33)   Writing objects:   9% (3/33)   Writing objects:  12% (4/33)   Writing objects:  15% (5/33)   Writing objects:  18% (6/33)   Writing objects:  21% (7/33)   Writing objects:  24% (8/33)   Writing objects:  27% (9/33)   Writing objects:  30% (10/33)   Writing objects:  33% (11/33)   Writing objects:  36% (12/33)   Writing objects:  39% (13/33)   Writing objects:  42% (14/33)   Writing objects:  45% (15/33)   Writing objects:  48% (16/33)   Writing objects:  51% (17/33)   Writing objects:  54% (18/33)   Writing objects:  57% (19/33)   Writing objects:  60% (20/33)   Writing objects:  63% (21/33)   Writing objects:  66% (22/33)   Writing objects:  69% (23/33)   Writing objects:  72% (24/33)   Writing objects:  75% (25/33)   Writing objects:  78% (26/33)   Writing objects:  81% (27/33)   Writing objects:  84% (28/33)   Writing objects:  87% (29/33)   Writing objects:  90% (30/33)   Writing objects:  93% (31/33)   Writing objects:  96% (32/33)   Writing objects: 100% (33/33)   Writing objects: 100% (33/33), 3.85 KiB | 0 bytes/s, done.
-Total 33 (delta 22), reused 0 (delta 0)
-remote: 
-remote: To create a merge request for tankatheme, visit:[K
-remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
-remote: 
-To https://gitlab.com/mentoldo/analitica.git
-   9f17716..11fb397  tankatheme -> tankatheme
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A "Ager[K[Kregara[K[Kda info wn [K[K[Ken ab[K[Kabotu[K[Kut"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+   e9939b8..5caf6fc  master -> master
+Branch master set up to track remote branch master from origin.
+
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git co[K[Kadd -A
