@@ -8,16 +8,6 @@
   </url>
   
   <url>
-    <loc>/note/another-note/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/note/a-quick-note/</loc>
-    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
   </url>
   
@@ -45,18 +35,6 @@
   </url>
   
   <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/note/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -77,12 +55,6 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tutorial/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
