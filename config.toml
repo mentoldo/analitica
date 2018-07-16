@@ -3,35 +3,30 @@ languageCode = "en-us"
 title = "Analítica Blog"
 theme = "hugo-xmin"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "mentoldo"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
 [[menu.main]]
     name = "Acerca de"
     url = "/about/"
-    weight = 2
+    weight = 1
 [[menu.main]]
     name = "Categorías"
     url = "/categories/"
-    weight = 3
+    weight = 2
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 3
 [[menu.main]]
     name = "Suscribir"
     url = "/index.xml"
 
+
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; Analítica, 2018"
+    footer = "&copy; Analítica, 2018 - [mail](mailto:matias.alfonso@gmail.com)"
+    sitename = "AnalíticA"

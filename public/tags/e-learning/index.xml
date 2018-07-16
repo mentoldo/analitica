@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E-learning on Analítica Blog</title>
+    <link>/tags/e-learning/</link>
+    <description>Recent content in E-learning on Analítica Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/e-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generación automática de preguntas de Estadística</title>
+      <link>/post/generacion-automatica/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/generacion-automatica/</guid>
+      <description>Una de las tareas a las que nos enfrentamos los docentes es el diseño y la implementación de exámenes de evaluación. En esta dirección, conjuntamente con el Dr. Eduardo Bologna venimos trabajando en un sistema de generación de preguntas de exámenes de estadística, el cual hemos comenzado a implementar progresivamente en la cátedra de Psicoestadística de la Facultad de Psicología de la Universidad Nacional de Córdoba.
+El sistema de generación de preguntas está basado en r-exams, una librería de R open-source que permite elaborar diferentes tipos de preguntas y a partir de ella, generar exámenes para varios sistemas: exámenes escritos PDF (con evaluación automática), exámenes para importar en diversas plataformas de aprendizaje (Moodle, Blackboard, OLAT, Ilias) así como la posibilidad de crear salidas personalizadas (PDF, HTML, doc).</description>
+    </item>
+    
+  </channel>
+</rss>

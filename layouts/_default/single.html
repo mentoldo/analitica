@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<section id=content>
+<h1><span class="title">{{ .Title }}</span></h1>
+ <div id=sub-header>
+    <a href="{{ "/about#colaboradores" | relURL }}" class="autor">{{ .Params.author }}</a> · {{ .Date.Format (.Site.Params.dateform | default "02-01-2006") }} · {{ .ReadingTime }} Minutos de lectura
+  </div>
+</div>
+
+<main class = articulo>
+{{ .Content }}
+</main>
+</section>
+
+{{ template "_internal/disqus.html" . }}
+{{ partial "footer.html" . }}

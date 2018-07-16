@@ -1,24 +1,27 @@
 {{ partial "header.html" . }}
 
-{{if eq .Title "Categories"}}
-<h1>Categorías</h1>
-{{ end }}
-
-{{if eq .Title "Tags"}}
-<h1>Tags</h1>
-{{ end }}
-
-
+<section id=content>
+<div class=tlista>
+    {{if eq .Title "Categories"}}
+    <h1>Categorías</h1>
+    {{ end }}
+    
+    {{if eq .Title "Tags"}}
+    <h1>Tags</h1>
+    {{ end }} 
+</div>
 
 <ul class="terms">
-  {{ range $key, $value := .Data.Terms }}
-  <li>
-    <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
-      {{ $key }}
-    </a>
-    ({{ len $value }})
-  </li>
-  {{ end }}
+  <div class = "lista"> 
+      {{ range $key, $value := .Data.Terms }}
+      <li>
+        <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
+          {{ $key }}
+        </a>
+        ({{ len $value }})
+      </li>
+      {{ end }}
+  </div>
 </ul>
-
+</section>
 {{ partial "footer.html" . }}
