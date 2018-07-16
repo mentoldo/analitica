@@ -61,3 +61,47 @@ To https://gitlab.com/mentoldo/analitica.git
 Branch master set up to track remote branch master from origin.
 
 ]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git co[K[Kadd -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Se borrari[Kon los arg[Kchivos [K[K[K[K[K[K[K[K[Kdocumentos de [K[K[K[K[K[K[K[K[K[K[K[K[K[Kposts de ejemplo"
+[tankatheme 2c5f04d] Se borraron los posts de ejemplo
+ 6 files changed, 66 insertions(+), 355 deletions(-)
+ rewrite .Rproj.user/C283AFD6/console06/E57A40BC (91%)
+ delete mode 100644 content/post/2015-07-23-lorem-ipsum.md
+ delete mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
+ delete mode 100644 content/post/2015-07-23-r-rmarkdown.html
+ delete mode 100644 content/post/2016-02-14-hello-markdown.md
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://gitlab.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@gitlab.com': 
+Counting objects: 9, done.
+Delta compression using up to 6 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 2.84 KiB | 0 bytes/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: 
+remote: To create a merge request for tankatheme, visit:[K
+remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
+remote: 
+To https://gitlab.com/mentoldo/analitica.git
+   1b53431..2c5f04d  tankatheme -> tankatheme
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push publico master
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://github.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@github.com': 
+Everything up-to-date
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ gi [Kt add -A
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://gitlab.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@gitlab.com': 
+Everything up-to-date
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ 1114[K[K[K[Kgit pushadd -Apush publico master
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Username for 'https://github.com': mentoldo
+error: cannot run rpostback-askpass: No existe el archivo o el directorio
+Password for 'https://mentoldo@github.com': 
+Everything up-to-date
+]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add A[K-A
