@@ -1,278 +1,0 @@
-[tankatheme 1b53431] Se agrego info en About
- 13 files changed, 55 insertions(+), 32 deletions(-)
- rewrite .Rproj.user/C283AFD6/console06/INDEX001 (87%)
- create mode 100644 public/images/about/eduardobologna.jpg
- create mode 100644 static/images/about/eduardobologna.jpg
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ g[Kgit c[K[K push
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Counting objects: 27, done.
-Delta compression using up to 6 threads.
-Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
-Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  59% (16/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 62.46 KiB | 0 bytes/s, done.
-Total 27 (delta 10), reused 0 (delta 0)
-remote: 
-remote: To create a merge request for tankatheme, visit:[K
-remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
-remote: 
-To https://gitlab.com/mentoldo/analitica.git
-   11fb397..1b53431  tankatheme -> tankatheme
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git pushcommit[2Ppush[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git remos[Kte add publico https://github.com/mentoldo/analitica.git
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push -u or[K[Kpublico master
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://github.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@github.com': 
-Counting objects: 253, done.
-Delta compression using up to 6 threads.
-Compressing objects:   0% (1/213)   Compressing objects:   1% (3/213)   Compressing objects:   2% (5/213)   Compressing objects:   3% (7/213)   Compressing objects:   4% (9/213)   Compressing objects:   5% (11/213)   Compressing objects:   6% (13/213)   Compressing objects:   7% (15/213)   Compressing objects:   8% (18/213)   Compressing objects:   9% (20/213)   Compressing objects:  10% (22/213)   Compressing objects:  11% (24/213)   Compressing objects:  12% (26/213)   Compressing objects:  13% (28/213)   Compressing objects:  14% (30/213)   Compressing objects:  15% (32/213)   Compressing objects:  16% (35/213)   Compressing objects:  17% (37/213)   Compressing objects:  18% (39/213)   Compressing objects:  19% (41/213)   Compressing objects:  20% (43/213)   Compressing objects:  21% (45/213)   Compressing objects:  22% (47/213)   Compressing objects:  23% (49/213)   Compressing objects:  24% (52/213)   Compressing objects:  25% (54/213)   Compressing objects:  26% (56/213)   Compressing objects:  27% (58/213)   Compressing objects:  28% (60/213)   Compressing objects:  29% (62/213)   Compressing objects:  30% (64/213)   Compressing objects:  31% (67/213)   Compressing objects:  32% (69/213)   Compressing objects:  33% (71/213)   Compressing objects:  34% (73/213)   Compressing objects:  35% (75/213)   Compressing objects:  36% (77/213)   Compressing objects:  37% (79/213)   Compressing objects:  38% (81/213)   Compressing objects:  39% (84/213)   Compressing objects:  40% (86/213)   Compressing objects:  41% (88/213)   Compressing objects:  42% (90/213)   Compressing objects:  43% (92/213)   Compressing objects:  44% (94/213)   Compressing objects:  45% (96/213)   Compressing objects:  46% (98/213)   Compressing objects:  47% (101/213)   Compressing objects:  48% (103/213)   Compressing objects:  49% (105/213)   Compressing objects:  50% (107/213)   Compressing objects:  51% (109/213)   Compressing objects:  52% (111/213)   Compressing objects:  53% (113/213)   Compressing objects:  54% (116/213)   Compressing objects:  55% (118/213)   Compressing objects:  56% (120/213)   Compressing objects:  57% (122/213)   Compressing objects:  58% (124/213)   Compressing objects:  59% (126/213)   Compressing objects:  60% (128/213)   Compressing objects:  61% (130/213)   Compressing objects:  62% (133/213)   Compressing objects:  63% (135/213)   Compressing objects:  64% (137/213)   Compressing objects:  65% (139/213)   Compressing objects:  66% (141/213)   Compressing objects:  67% (143/213)   Compressing objects:  68% (145/213)   Compressing objects:  69% (147/213)   Compressing objects:  70% (150/213)   Compressing objects:  71% (152/213)   Compressing objects:  72% (154/213)   Compressing objects:  73% (156/213)   Compressing objects:  74% (158/213)   Compressing objects:  75% (160/213)   Compressing objects:  76% (162/213)   Compressing objects:  77% (165/213)   Compressing objects:  78% (167/213)   Compressing objects:  79% (169/213)   Compressing objects:  80% (171/213)   Compressing objects:  81% (173/213)   Compressing objects:  82% (175/213)   Compressing objects:  83% (177/213)   Compressing objects:  84% (179/213)   Compressing objects:  85% (182/213)   Compressing objects:  86% (184/213)   Compressing objects:  87% (186/213)   Compressing objects:  88% (188/213)   Compressing objects:  89% (190/213)   Compressing objects:  90% (192/213)   Compressing objects:  91% (194/213)   Compressing objects:  92% (196/213)   Compressing objects:  93% (199/213)   Compressing objects:  94% (201/213)   Compressing objects:  95% (203/213)   Compressing objects:  96% (205/213)   Compressing objects:  97% (207/213)   Compressing objects:  98% (209/213)   Compressing objects:  99% (211/213)   Compressing objects: 100% (213/213)   Compressing objects: 100% (213/213), done.
-Writing objects:   0% (1/253)   Writing objects:   1% (3/253)   Writing objects:   2% (6/253)   Writing objects:   3% (8/253)   Writing objects:   4% (11/253)   Writing objects:   5% (13/253)   Writing objects:   6% (16/253)   Writing objects:   7% (18/253)   Writing objects:   8% (21/253)   Writing objects:   9% (23/253)   Writing objects:  10% (26/253)   Writing objects:  11% (28/253)   Writing objects:  12% (31/253)   Writing objects:  13% (33/253)   Writing objects:  14% (36/253)   Writing objects:  15% (38/253)   Writing objects:  16% (41/253)   Writing objects:  17% (44/253)   Writing objects:  18% (47/253)   Writing objects:  19% (49/253)   Writing objects:  20% (51/253)   Writing objects:  21% (55/253)   Writing objects:  22% (56/253)   Writing objects:  23% (59/253)   Writing objects:  24% (61/253)   Writing objects:  25% (64/253)   Writing objects:  26% (66/253)   Writing objects:  27% (69/253)   Writing objects:  28% (71/253)   Writing objects:  30% (77/253)   Writing objects:  31% (79/253)   Writing objects:  32% (81/253)   Writing objects:  33% (84/253)   Writing objects:  35% (89/253)   Writing objects:  36% (92/253)   Writing objects:  37% (94/253)   Writing objects:  38% (97/253)   Writing objects:  39% (99/253)   Writing objects:  40% (102/253)   Writing objects:  41% (104/253)   Writing objects:  42% (107/253)   Writing objects:  43% (110/253)   Writing objects:  44% (112/253)   Writing objects:  45% (115/253)   Writing objects:  46% (117/253)   Writing objects:  47% (119/253)   Writing objects:  48% (122/253)   Writing objects:  49% (124/253)   Writing objects:  50% (127/253)   Writing objects:  51% (130/253)   Writing objects:  52% (132/253)   Writing objects:  53% (135/253)   Writing objects:  54% (137/253)   Writing objects:  55% (140/253)   Writing objects:  56% (142/253)   Writing objects:  57% (145/253)   Writing objects:  58% (147/253)   Writing objects:  59% (150/253)   Writing objects:  60% (152/253)   Writing objects:  61% (155/253)   Writing objects:  62% (157/253)   Writing objects:  63% (160/253)   Writing objects:  64% (162/253)   Writing objects:  65% (165/253)   Writing objects:  66% (167/253)   Writing objects:  67% (170/253)   Writing objects:  68% (173/253)   Writing objects:  69% (175/253)   Writing objects:  70% (178/253)   Writing objects:  71% (180/253)   Writing objects:  72% (183/253)   Writing objects:  73% (185/253)   Writing objects:  74% (188/253)   Writing objects:  75% (190/253)   Writing objects:  76% (193/253)   Writing objects:  77% (195/253)   Writing objects:  78% (198/253)   Writing objects:  79% (200/253)   Writing objects:  81% (206/253)   Writing objects:  83% (210/253)   Writing objects:  84% (213/253)   Writing objects:  85% (216/253)   Writing objects:  86% (218/253)   Writing objects:  87% (221/253)   Writing objects:  88% (223/253)   Writing objects:  89% (226/253)   Writing objects:  90% (228/253)   Writing objects:  91% (231/253)   Writing objects:  92% (233/253)   Writing objects:  93% (236/253)   Writing objects:  94% (238/253)   Writing objects:  95% (241/253)   Writing objects:  96% (243/253)   Writing objects:  97% (246/253)   Writing objects:  98% (248/253)   Writing objects:  99% (251/253)   Writing objects: 100% (253/253)   Writing objects: 100% (253/253), 133.66 KiB | 0 bytes/s, done.
-Total 253 (delta 84), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/84)   [Kremote: Resolving deltas:   3% (3/84)   [Kremote: Resolving deltas:   4% (4/84)   [Kremote: Resolving deltas:   5% (5/84)   [Kremote: Resolving deltas:   8% (7/84)   [Kremote: Resolving deltas:   9% (8/84)   [Kremote: Resolving deltas:  11% (10/84)   [Kremote: Resolving deltas:  13% (11/84)   [Kremote: Resolving deltas:  14% (12/84)   [Kremote: Resolving deltas:  16% (14/84)   [Kremote: Resolving deltas:  19% (16/84)   [Kremote: Resolving deltas:  20% (17/84)   [Kremote: Resolving deltas:  21% (18/84)   [Kremote: Resolving deltas:  22% (19/84)   [Kremote: Resolving deltas:  25% (21/84)   [Kremote: Resolving deltas:  26% (22/84)   [Kremote: Resolving deltas:  39% (33/84)   [Kremote: Resolving deltas:  40% (34/84)   [Kremote: Resolving deltas:  41% (35/84)   [Kremote: Resolving deltas:  45% (38/84)   [Kremote: Resolving deltas:  59% (50/84)   [Kremote: Resolving deltas:  71% (60/84)   [Kremote: Resolving deltas:  72% (61/84)   [Kremote: Resolving deltas:  73% (62/84)   [Kremote: Resolving deltas:  75% (63/84)   [Kremote: Resolving deltas:  76% (64/84)   [Kremote: Resolving deltas:  95% (80/84)   [Kremote: Resolving deltas: 100% (84/84)   [Kremote: Resolving deltas: 100% (84/84), done.[K
-To https://github.com/mentoldo/analitica.git
- * [new branch]      master -> master
-Branch master set up to track remote branch master from publico.
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git remob[Kte
-origin
-publico
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git remote[2Ppush -u publico master
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://github.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@github.com': 
-Branch master set up to track remote branch master from publico.
-Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push -u publico masterremote[Kpush -u publico master[K[K[K[K[K[K[K[K[K[K[K[K[K[Korigin master
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Total 0 (delta 0), reused 0 (delta 0)
-To https://gitlab.com/mentoldo/analitica.git
-   e9939b8..5caf6fc  master -> master
-Branch master set up to track remote branch master from origin.
-
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git co[K[Kadd -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "Se borrari[Kon los arg[Kchivos [K[K[K[K[K[K[K[K[Kdocumentos de [K[K[K[K[K[K[K[K[K[K[K[K[K[Kposts de ejemplo"
-[tankatheme 2c5f04d] Se borraron los posts de ejemplo
- 6 files changed, 66 insertions(+), 355 deletions(-)
- rewrite .Rproj.user/C283AFD6/console06/E57A40BC (91%)
- delete mode 100644 content/post/2015-07-23-lorem-ipsum.md
- delete mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
- delete mode 100644 content/post/2015-07-23-r-rmarkdown.html
- delete mode 100644 content/post/2016-02-14-hello-markdown.md
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Counting objects: 9, done.
-Delta compression using up to 6 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 2.84 KiB | 0 bytes/s, done.
-Total 9 (delta 6), reused 0 (delta 0)
-remote: 
-remote: To create a merge request for tankatheme, visit:[K
-remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
-remote: 
-To https://gitlab.com/mentoldo/analitica.git
-   1b53431..2c5f04d  tankatheme -> tankatheme
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push publico master
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://github.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@github.com': 
-Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ gi [Kt add -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ 1114[K[K[K[Kgit pushadd -Apush publico master
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://github.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@github.com': 
-Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add A[K-A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git a[Kcommit- [K[K -m " [KSe modifici[K[Ki[Kc[Kco el readme"
-[tankatheme 724e167] Se modifico el readme
- 16 files changed, 55 insertions(+), 415 deletions(-)
- rewrite README.md (93%)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git push
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://gitlab.com': mentol ldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@gitlab.com': 
-Counting objects: 29, done.
-Delta compression using up to 6 threads.
-Compressing objects:   3% (1/28)   Compressing objects:   7% (2/28)   Compressing objects:  10% (3/28)   Compressing objects:  14% (4/28)   Compressing objects:  17% (5/28)   Compressing objects:  21% (6/28)   Compressing objects:  25% (7/28)   Compressing objects:  28% (8/28)   Compressing objects:  32% (9/28)   Compressing objects:  35% (10/28)   Compressing objects:  39% (11/28)   Compressing objects:  42% (12/28)   Compressing objects:  46% (13/28)   Compressing objects:  50% (14/28)   Compressing objects:  53% (15/28)   Compressing objects:  57% (16/28)   Compressing objects:  60% (17/28)   Compressing objects:  64% (18/28)   Compressing objects:  67% (19/28)   Compressing objects:  71% (20/28)   Compressing objects:  75% (21/28)   Compressing objects:  78% (22/28)   Compressing objects:  82% (23/28)   Compressing objects:  85% (24/28)   Compressing objects:  89% (25/28)   Compressing objects:  92% (26/28)   Compressing objects:  96% (27/28)   Compressing objects: 100% (28/28)   Compressing objects: 100% (28/28), done.
-Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29)   Writing objects:  20% (6/29)   Writing objects:  24% (7/29)   Writing objects:  27% (8/29)   Writing objects:  31% (9/29)   Writing objects:  34% (10/29)   Writing objects:  37% (11/29)   Writing objects:  41% (12/29)   Writing objects:  44% (13/29)   Writing objects:  48% (14/29)   Writing objects:  51% (15/29)   Writing objects:  55% (16/29)   Writing objects:  58% (17/29)   Writing objects:  62% (18/29)   Writing objects:  65% (19/29)   Writing objects:  68% (20/29)   Writing objects:  72% (21/29)   Writing objects:  75% (22/29)   Writing objects:  79% (23/29)   Writing objects:  82% (24/29)   Writing objects:  86% (25/29)   Writing objects:  89% (26/29)   Writing objects:  93% (27/29)   Writing objects:  96% (28/29)   Writing objects: 100% (29/29)   Writing objects: 100% (29/29), 2.71 KiB | 0 bytes/s, done.
-Total 29 (delta 21), reused 0 (delta 0)
-remote: 
-remote: To create a merge request for tankatheme, visit:[K
-remote:   https://gitlab.com/mentoldo/analitica/merge_requests/new?merge_request%5Bsource_branch%5D=tankatheme[K
-remote: 
-To https://gitlab.com/mentoldo/analitica.git
-   2c5f04d..724e167  tankatheme -> tankatheme
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git com[K[K[Kpushcommit -m "Se modifico el readme"add -A[Kpush publico master
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Username for 'https://github.com': mentoldo
-error: cannot run rpostback-askpass: No existe el archivo o el directorio
-Password for 'https://mentoldo@github.com': 
-Everything up-to-date
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ [K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está actualizada con «origin/tankatheme».
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/INDEX001[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git [K[K[K[Kgit statuspush publico masterstatus[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status[K
-git: «statu» no es una orden de git. Vea «git --help»
-
-¿Se refiere a alguno de estos?
-	status
-	stage
-	stash
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuspush publico master[K publico masterstatus[K[K[Kgit merch[K[Kge tankatheme mas[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kb[K brac[Knck[Kh[K[K[K[K[K[Kcheq[Kc[K[K[K[Kcheckout master
-error: Your local changes to the following files would be overwritten by checkout:
-	.Rproj.user/C283AFD6/console06/E57A40BC
-	.Rproj.user/C283AFD6/console06/INDEX001
-Please, commit your changes or stash them before you can switch branches.
-Aborting
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ g[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está actualizada con «origin/tankatheme».
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/INDEX001[m
-	[31mmodificado:    .Rproj.user/C283AFD6/sources/prop/INDEX[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ bit[K[K[Kgit m[Kcommit -.m[K[Km "camo[Kbios[K[K[K[K[K[K[Knada nuevos[K"
-[tankatheme a14bbf2] nada nuevo
- 3 files changed, 65 insertions(+), 1 deletion(-)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 1 commit.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 1 commit.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-	[31mmodificado:    .gitignore[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -A
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git commit -m "se modific[Kco e[Kgitignore"
-[tankatheme 7ea2320] se modifico gitignore
- 2 files changed, 28 insertions(+), 1 deletion(-)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 2 commits.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ ñ[K[K]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuscommit -m "se modifico gitignore"add -A[K
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -Astatuscommit -m "se modifico gitignore"
-[tankatheme ef6cb16] se modifico gitignore
- 3 files changed, 18 insertions(+), 3 deletions(-)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 3 commits.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuscommit -m "se modifico gitignore"add -A[K
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git add -Astatuscommit -m "se modifico gitignore"
-[tankatheme 59a69f8] se modifico gitignore
- 2 files changed, 17 insertions(+), 2 deletions(-)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ b[Kgit status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 4 commits.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuscommit -m "se modifico gitignore"status[K
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 4 commits.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-	[31mmodificado:    .gitignore[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuscommit -m "se modifico gitignore"add -A[K
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ GIT [K[K[K[Ks[Kgit status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 5 commits.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git status
-En la rama tankatheme
-Su rama está delante de «origin/tankatheme» para 5 commits.
-  (use "git push" to publish your local commits)
-Cambios no preparados para el commit:
-  (use «git add <archivo>...» para actualizar lo que se confirmará)
-  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
-
-	[31mmodificado:    .Rproj.user/C283AFD6/console06/E57A40BC[m
-	[31mmodificado:    .gitignore[m
-
-no hay cambios agregados al commit (use «git add» o «git commit -a»)
-]0;/home/psyche/Escritorio/blogs/analitica]0;psyche@psyche-N250P: ~/Escritorio/blogs/analitica[01;32mpsyche@psyche-N250P[00m:[01;34m~/Escritorio/blogs/analitica[00m$ git statuscheckout -- .Rproj.user/C283AFD6/console06/E57A40BCstatus[K[Kgit statuscheckout -- .Rproj.user/C283AFD6/console06/E57A40BCstatus[Kcommit -m "se modifico gitignore"add -A[K
