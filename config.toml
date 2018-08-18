@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Analítica Blog"
+title = "Analitica"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = "mentoldo"
