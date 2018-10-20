@@ -26,7 +26,7 @@ Primero instalaremos el paquete `exams`:
 
 ```{r exams, eval = FALSE}
 
-install.packages("rexams")
+install.packages("exams")
 
 ```
 
@@ -34,7 +34,9 @@ install.packages("rexams")
 Una vez instaladas las dependencias, procederemos a descargar el [proyecto](https://github.com/mentoldo/exam_stat), haciendo click en clone or download, o, si preferimos la consola:
 
 ```git
-git clone https://github.com/mentoldo/exam_stat
+
+git clone https://github.com/mentoldo/exam_stat  
+
 ```
 Si utilizamos RStudio, podremos abrir el proyecto directamente desde el archivo *exam_stat.Rproj*. Esto configurará automáticamente el directorio de trabajo en la carpeta donde se encuentra el proyecto. En el caso contrarió deberemos indicar el directorio de trabajo:
 ```r

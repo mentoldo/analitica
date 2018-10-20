@@ -23,10 +23,12 @@
 &lt;div id=&#34;instructivo&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Instructivo&lt;/h2&gt;
 &lt;p&gt;Para utilizar la base de preguntas es necesarios tener instalado R. Además, en este instructivo, utilizaremos &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt; para generar los exámenes de ejemplo. Primero instalaremos el paquete &lt;code&gt;exams&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;rexams&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;exams&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;exams&lt;/code&gt; instalará automáticamente la mayoría de las dependencias necesarias para su utilización. Sin embargo, si alguna dependencia no está satisfecha, deberemos instalarla también. En el caso que querramos generar un examen escrito, también tendremos que tener instalado &lt;a href=&#34;https://www.latex-project.org/get/&#34;&gt;Latex&lt;/a&gt; en nuestra computadora.&lt;br /&gt;
 Una vez instaladas las dependencias, procederemos a descargar el &lt;a href=&#34;https://github.com/mentoldo/exam_stat&#34;&gt;proyecto&lt;/a&gt;, haciendo click en clone or download, o, si preferimos la consola:&lt;/p&gt;
-&lt;pre class=&#34;git&#34;&gt;&lt;code&gt;git clone https://github.com/mentoldo/exam_stat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;git&#34;&gt;&lt;code&gt;
+git clone https://github.com/mentoldo/exam_stat  
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Si utilizamos RStudio, podremos abrir el proyecto directamente desde el archivo &lt;em&gt;exam_stat.Rproj&lt;/em&gt;. Esto configurará automáticamente el directorio de trabajo en la carpeta donde se encuentra el proyecto. En el caso contrarió deberemos indicar el directorio de trabajo:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;setwd(&amp;quot;PATCH/A/PROYECTO&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
